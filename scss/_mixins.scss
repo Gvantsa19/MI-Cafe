@@ -3,3 +3,8 @@
     justify-content: $justify;
     align-items: $align;
 }
+
+@mixin backgroundimg($background-size, $bckground-repeat) {
+    background-size: $background-size;
+    background-repeat: $bckground-repeat;
+}
