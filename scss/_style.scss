@@ -1,11 +1,8 @@
 body {
-    background-color: $maincolor;
-}
+    background-color: $maincolor;}
 .header {
     @extend %mainsize;
     .bg {
-        background-image: url(../images/photo-1522012188892-24beb302783d.jpeg);
-        position: $relative;
         @include backgroundimg(cover, no-repeat);
         .navigation {
             width: $width;
@@ -38,10 +35,37 @@ body {
             }
         }
         .header-text-block {
-            position: $absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            max-width: 1000px;
+            height: auto;
+            margin: 378px auto 0;
+            .soMuch {
+                text-align: center;
+                font-size: 80px;
+                color: $white;
+                font-family: $font-family;
+            }
+            .header-p {
+                color: $white;  
+                text-align: center;
+                font-size: $font22;
+                font-family: $font-family;
+                margin-top: $margin-top20;
+                margin-bottom: $margin-bottom20;
+            }
+            .getIt {
+                max-width: 230px;
+                height: 62px;
+                background-color: #FF7644;
+                border-radius: 30px;
+                padding: 22px 35px;
+                margin: $margin0auto;
+                cursor: pointer;
+                .getItText {
+                    color: $white;
+                    font-size: $font16;
+                    font-family: $font-family;
+                }
+            }
         }
     }
 }
