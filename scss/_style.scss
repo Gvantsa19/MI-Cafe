@@ -10,11 +10,13 @@ body {
             @include flex (flex, space-around, center);
             .nav-ul {
                 @include flex (flex, space-between, center);
+                flex-wrap: wrap;
                 .nav-li {
                     max-width: 170px;
                     height: 80px;
                     border-top: none;
                     padding: $padding20;
+                    cursor: pointer;
                     .nav-a {
                         color: $white;
                         font-family: $font-family;
@@ -64,6 +66,8 @@ body {
                     color: $white;
                     font-size: $font16;
                     font-family: $font-family;
+                    text-transform: uppercase;
+                    white-space: nowrap;
                 }
             }
         }
