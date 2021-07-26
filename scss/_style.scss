@@ -73,3 +73,62 @@ body {
         }
     }
 }
+.hiThere {
+    width: $width;
+    margin-top: 300px;
+    @include flex (flex, center, center);
+    flex-wrap: wrap;
+    .hiThere-left {
+        max-width: 600px;
+        width: $width;
+        height: 400px;
+        background-color: rgb(23, 23, 34);
+        padding-top: 50px;
+        .left-inner {
+            max-width: 376px;
+            width: $width;
+            height: auto;
+            margin: $margin0auto;
+            .hiThereText {
+                color: $white;
+                font-size: $font16;
+                text-transform: uppercase;
+                font-family: $font-family;
+            }
+            .hiThereH3 {
+                color: $white;
+                font-size: 45px;
+                font-family: $font-family;
+                text-transform: capitalize;
+                margin-top: $margin-top20;
+            }
+            .hiThereP {
+                color: $white;
+                font-size: $font16;
+                font-family: $font-family;
+                margin-top: $margin-top20;
+                margin-bottom: $margin-bottom20;
+            }
+            .join {
+                max-width: 270px;
+                width: $width;
+                height: 72px;
+                background-color: $orange;
+                border-radius: 36px;
+                border: none;
+                color: $white;
+                font-size: $font16;
+                font-family: $font-family;
+            }
+        }
+    }
+    .hiThere-right {
+        max-width: 600px;
+        width: $width;
+        height: auto;
+        .image {
+            width: $width;
+            height: 100%;
+        }
+    }
+}

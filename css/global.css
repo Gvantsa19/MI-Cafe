@@ -141,4 +141,74 @@ body {
   text-transform: uppercase;
   white-space: nowrap;
 }
+
+.hiThere {
+  width: 100%;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hiThere .hiThere-left {
+  max-width: 600px;
+  width: 100%;
+  height: 400px;
+  background-color: #171722;
+  padding-top: 50px;
+}
+
+.hiThere .hiThere-left .left-inner {
+  max-width: 376px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.hiThere .hiThere-left .left-inner .hiThereText {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.hiThere .hiThere-left .left-inner .hiThereH3 {
+  color: white;
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.hiThere .hiThere-left .left-inner .hiThereP {
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hiThere .hiThere-left .left-inner .join {
+  max-width: 270px;
+  width: 100%;
+  height: 72px;
+  background-color: #FF7644;
+  border-radius: 36px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.hiThere .hiThere-right {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+.hiThere .hiThere-right .image {
+  width: 100%;
+  height: 100%;
+}
 /*# sourceMappingURL=global.css.map */
