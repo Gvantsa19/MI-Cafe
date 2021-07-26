@@ -1,9 +1,11 @@
 body {
-    background-color: $maincolor;}
-.header {
+    background-color: $maincolor;
+}
+.main {
     @extend %mainsize;
     .bg {
         @include backgroundimg(cover, no-repeat);
+        background-image: url(../images/bg2.jpeg);
         .navigation {
             width: $width;
             border-bottom: $white 1px solid;
@@ -82,8 +84,8 @@ body {
         max-width: 600px;
         width: $width;
         height: 404px;
-        background-color: rgb(23, 23, 34);
-        padding-top: 50px;
+        background-color: #0e0e19;
+        padding-top: 80px;
         .left-inner {
             max-width: 376px;
             width: $width;
@@ -129,6 +131,37 @@ body {
         .image {
             width: $width;
             height: 100%;
+        }
+    }
+}
+.aboutmi {
+    @extend %mainsize;
+    margin-top: 200px;
+    .first-block {
+        max-width: 536px;
+        @include flex(flex, space-around, center);
+        margin: $margin0auto;
+        .info {
+            max-width: 119px;
+            color: $white;
+            font-family: $font-family;
+        }
+    }
+    .second-block {
+        max-width: 784px;
+        margin: $margin0auto;
+        .AboutMassCafe {
+            font-size: 48px;
+            color: $white;
+            font-family: $font-family;
+            text-align: center;
+            margin: 50px 0;
+        }
+        .massP {
+            color: $white;
+            font-size: $font22;
+            font-family: $font-family;
+            text-align: center;
         }
     }
 }
