@@ -60,7 +60,7 @@ body {
 .main .bg {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/bg2.jpeg);
+  background-image: url(../images/photo-1442512595331-e89e73853f31.jpeg);
 }
 
 .main .bg .navigation {
@@ -103,10 +103,27 @@ body {
   background-color: #1f1f35;
 }
 
+@media (max-width: 940px) {
+  .main .bg .navigation .nav-ul .nav-li {
+    display: none;
+  }
+}
+
+@media (max-width: 1090px) {
+  .main .bg .navigation .nav-ul .icons {
+    display: none;
+  }
+}
+
+.main .bg .navigation .burger-bar {
+  display: none;
+}
+
 .main .bg .header-text-block {
   max-width: 1000px;
   height: auto;
   margin: 378px auto 0;
+  padding-bottom: 100px;
 }
 
 .main .bg .header-text-block .soMuch {
