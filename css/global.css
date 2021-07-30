@@ -239,13 +239,20 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
 .aboutmi .first-block .info {
-  max-width: 119px;
+  max-width: 150px;
+  height: 25px;
   color: white;
   font-family: "Roboto", sans-serif;
+  padding: 15px;
+}
+
+.aboutmi .first-block .info:hover {
+  border-bottom: #FF7644 4px solid;
 }
 
 .aboutmi .second-block {
@@ -350,6 +357,78 @@ body {
   background-image: url(../images/block4.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.mapSection {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.mapSection .OurLoc {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mapSection .map {
+  max-width: 1300px;
+  width: 100%;
+  height: 80vh;
+  margin: 0 auto;
+  background-image: url(../images/map.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.mapSection .map .storeLoc {
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+}
+
+.mapSection .map .storeLoc .fa-map-marker-alt {
+  color: #FF7644;
+  font-size: 22px;
+  text-align: center;
+}
+
+.mapSection .map .storeLoc .store {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.mapSection .map .storeLoc .orangeLine {
+  max-width: 28px;
+  width: 100%;
+  height: 2px;
+  background-color: #FF7644;
+  margin: 0 auto;
+}
+
+.mapSection .map .storeLoc:nth-child(2) {
+  top: 50%;
+  left: 20%;
+}
+
+.mapSection .map .storeLoc:nth-child(3) {
+  top: 15%;
+  left: 50%;
+}
+
+.mapSection .map .storeLoc:nth-child(4) {
+  top: 65%;
+  left: 60%;
 }
 
 @media (max-width: 940px) {

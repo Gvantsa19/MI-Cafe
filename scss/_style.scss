@@ -155,11 +155,19 @@ body {
     .first-block {
         max-width: 536px;
         @include flex(flex, space-around, center);
+        flex-wrap: wrap;
         margin: $margin0auto;
         .info {
-            max-width: 119px;
+            max-width: 150px;
+            height: 25px;
             color: $white;
             font-family: $font-family;
+            padding: 15px;
+        }
+        .info {
+            &:hover {
+                border-bottom: $orange 4px solid;
+            }
         }
     }
     .second-block {
@@ -245,6 +253,69 @@ body {
             &:nth-child(4){
                 background-image: url(../images/block4.jpeg);
                 @include backgroundimg(cover, no-repeat);
+            }
+        }
+    }
+}
+.mapSection {
+    width: $width;
+    margin-top: 100px;
+    .OurLoc {
+        color: $white;
+        font-family: $font-family;
+        font-size: $font22;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .map {
+        max-width: 1300px;
+        width: 100%;
+        height: 80vh;
+        margin: $margin0auto;
+        background-image: url(../images/map.jpeg);
+        @include backgroundimg(cover, no-repeat);
+        position: relative;
+        .storeLoc {
+            max-width: 200px;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 10%;
+            left: 4%;
+            .fa-map-marker-alt {
+                color: $orange;
+                font-size: $font22;
+                text-align: center;
+            }
+            .store {
+                color: $white;
+                font-family: $font-family;
+                font-size: $font16;
+                text-align: center;
+                margin: 5px 0;
+            }
+            .orangeLine {
+                max-width: 28px;
+                width: 100%;
+                height: 2px;
+                background-color: $orange;
+                margin: $margin0auto;
+            }
+        }
+        .storeLoc {
+            &:nth-child(2){
+                top: 50%;
+                left: 20%;
+            }
+            &:nth-child(3){
+                top: 15%;
+                left: 50%;
+            }
+            &:nth-child(4){
+                top: 65%;
+                left: 60%;
             }
         }
     }
