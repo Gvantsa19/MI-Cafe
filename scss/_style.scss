@@ -5,7 +5,7 @@ body {
     @extend %mainsize;
     .bg {
         @include backgroundimg(cover, no-repeat);
-        background-image: url(../images/photo-1442512595331-e89e73853f31.jpeg);
+        background-image: url(../images/bg.jpeg);
         .navigation {
             width: $width;
             border-bottom: $white 1px solid;
@@ -36,19 +36,19 @@ body {
                         background-color: rgb(31, 31, 53);
                     }
                 }
-                @media (max-width: 940px) {
-                    .nav-li {
-                        display: none;
-                    }
-                }
-                @media (max-width: 1090px) {
-                    .icons {
-                        display: none;
-                    }
-                }
             }
             .burger-bar {
                 display: none;
+                color: $white;
+                font-size: 25px;
+                position: absolute;
+                top: 2%;
+                right: 10%;
+            }
+            @media (max-width: 940px) {
+                .burger-bar {
+                    display: block;
+                }
             }
         }
         .header-text-block {
@@ -135,6 +135,7 @@ body {
                 color: $white;
                 font-size: $font16;
                 font-family: $font-family;
+                cursor: pointer;
             }
         }
     }
