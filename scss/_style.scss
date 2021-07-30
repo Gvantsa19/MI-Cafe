@@ -211,8 +211,13 @@ body {
             }
         }
         .block {
+            &:nth-child(1){
+                background-image: url(../images/block1.jpeg);
+                @include backgroundimg(cover, no-repeat);
+            }
             &:nth-child(2) {
-                background-color: $orange;
+                background-image: url(../images/blcok2.jpeg);
+                @include backgroundimg(cover, no-repeat);
                 padding-top: 300px;
                 padding-bottom: 25px;
                 .learnMore {
@@ -232,6 +237,14 @@ body {
                     background-color: $white;
                     color: $black;
                 }
+            }
+            &:nth-child(3){
+                background-image: url(../images/blcok3.jpeg);
+                @include backgroundimg(cover, no-repeat);
+            }
+            &:nth-child(4){
+                background-image: url(../images/block4.jpeg);
+                @include backgroundimg(cover, no-repeat);
             }
         }
     }

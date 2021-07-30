@@ -307,8 +307,16 @@ body {
   max-width: 300px;
 }
 
+.aboutmi .third-block .block:nth-child(1) {
+  background-image: url(../images/block1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .aboutmi .third-block .block:nth-child(2) {
-  background-color: #FF7644;
+  background-image: url(../images/blcok2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 300px;
   padding-bottom: 25px;
 }
@@ -330,6 +338,18 @@ body {
 .aboutmi .third-block .block:nth-child(2) .learnMore:hover {
   background-color: white;
   color: black;
+}
+
+.aboutmi .third-block .block:nth-child(3) {
+  background-image: url(../images/blcok3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutmi .third-block .block:nth-child(4) {
+  background-image: url(../images/block4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 940px) {
