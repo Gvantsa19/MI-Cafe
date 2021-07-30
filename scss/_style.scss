@@ -179,4 +179,60 @@ body {
             text-align: center;
         }
     }
+    .third-block {
+        width: 100%;
+        height: auto;
+        margin: 80px auto 0;
+        @include flex (flex, space-evenly, center);
+        flex-wrap: wrap;
+        .block {
+            max-width: 376px;
+            width: 100%;
+            height: auto;
+            padding: 400px 25px 25px;
+            background-color: #191C28;
+            .block-title {
+                color: $white;
+                font-size: $font22;
+                font-family: $font-family;
+            }
+            .whiteline {
+                max-width: 80px;
+                height: 2px;
+                background-color: $white;
+                margin-top: $margin-top20;
+                margin-bottom: $margin-bottom20;
+            }
+            .blockP {
+                color: $white;
+                font-family: $font-family;
+                font-size: $font16;
+                max-width: 300px;
+            }
+        }
+        .block {
+            &:nth-child(2) {
+                background-color: $orange;
+                padding-top: 300px;
+                padding-bottom: 25px;
+                .learnMore {
+                    max-width: 280px;
+                    width: 100%;
+                    height: 52px;
+                    border: $white 1px solid;
+                    border-radius: 25px;
+                    background-color: $orange;
+                    color: $white;
+                    font-family: $font-family;
+                    font-size: $font16;
+                    cursor: pointer;
+                    margin-top: $margin-top20;
+                }
+                .learnMore:hover {
+                    background-color: $white;
+                    color: $black;
+                }
+            }
+        }
+    }
 }
