@@ -5,7 +5,7 @@ body {
     @extend %mainsize;
     .bg {
         @include backgroundimg(cover, no-repeat);
-        background-image: url(../images/bg.jpeg);
+        background-image: url(../images/pexels-photo-302902.jpeg);
         .navigation {
             width: $width;
             border-bottom: $white 1px solid;
@@ -16,7 +16,7 @@ body {
                 .nav-li {
                     max-width: 170px;
                     height: 80px;
-                    border-top: none;
+                    border-top: $none;
                     padding: $padding20;
                     cursor: pointer;
                     .nav-a {
@@ -38,7 +38,7 @@ body {
                 }
             }
             .burger-bar {
-                display: none;
+                display: $none;
                 color: $white;
                 font-size: 25px;
                 position: $absolute;
@@ -54,8 +54,8 @@ body {
         .header-text-block {
             max-width: 1000px;
             height: auto;
-            margin: 378px auto 0;
-            padding-bottom: 100px;
+            margin: 200px auto 0;
+            padding-bottom: 150px;
             .soMuch {
                 text-align: center;
                 font-size: 80px;
@@ -91,7 +91,7 @@ body {
 }
 .hiThere {
     width: $width;
-    margin-top: 300px;
+    margin-top: 100px;
     @include flex (flex, center, center);
     flex-wrap: wrap;
     .hiThere-left {
@@ -131,7 +131,7 @@ body {
                 height: 72px;
                 background-color: $orange;
                 border-radius: 36px;
-                border: none;
+                border: $none;
                 color: $white;
                 font-size: $font16;
                 font-family: $font-family;
@@ -317,6 +317,68 @@ body {
                 top: 70%;
                 left: 65%;
             }
+        }
+    }
+}
+.footer-line {
+    max-width: 1000px;
+    background-color: $white;
+    height: 1px;
+    margin: $margin0auto;
+}
+.copyright {
+    color: $white;
+    font-size: $font14;
+    font-family: $font-family;
+    margin-top: $margin-top20;
+    text-align: center;
+}
+.footer-block {
+    @include flex (flex, space-around, center);
+    align-items: flex-start;
+    max-width: 1300px;
+    width: $width;
+    height: auto;
+    margin: 100px auto 0;
+    padding: $padding20;
+    .footer-p {
+        width: 376px;
+        color: $white;
+        font-family: $font-family;
+        font-size: $font16;
+        margin-top: $margin-top20;
+    }
+    .footer-li {
+        margin-bottom: $margin-bottom20;
+        .footer-a {
+            font-size: $fontrem;
+            color: $white;
+            font-family: $font-family;
+            margin-bottom: $margin-bottom20;
+            .fab {
+                margin-right: $margin-right;
+            }
+        }
+    }
+    .getSpecial {
+        color: $white;
+        font-family: $font-family;
+        font-size: $font16;
+    }
+    .mail-block {
+        max-width: 376px;
+        width: 100%;
+        height: 56px;
+        margin-top: $margin-top20;
+        .email {
+            width: 100%;
+            height: 56px;
+            background-color: $grey;
+            border: $none;
+            opacity: 0.6;
+            padding-left: 25px;
+            font-family: $font-family;
+            outline: $none;
         }
     }
 }

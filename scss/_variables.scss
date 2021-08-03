@@ -3,6 +3,7 @@ $white: white;
 $black: black;
 $maincolor: #212433;
 $orange: #FF7644;
+$grey: rgb(56, 55, 63);
 
 //width100
 $width: 100%;
@@ -13,6 +14,7 @@ $margin-left8: 8px;
 $margin0auto: 0 auto;
 $margin-top20: 20px;
 $margin-bottom20: 20px;
+$margin-right: 15px;
 
 //font-family
 $font-family: 'Roboto', sans-serif;
@@ -21,7 +23,12 @@ $font-family: 'Roboto', sans-serif;
 $font14: 14px;
 $font16: 16px;
 $font22: 22px;
+$fontrem: 1.2rem;
 
 //positions
 $relative: relative;
 $absolute: absolute;
+
+//none
+
+$none: none;
