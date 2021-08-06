@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-.main, .aboutmi {
+.main, .main .aboutmi, .main2 {
   max-width: 1600px;
   width: 100%;
   height: auto;
@@ -60,7 +60,8 @@ body {
 .main .bg {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/pexels-photo-302902.jpeg);
+  background-image: url(../images/222.jpeg);
+  height: 800px;
 }
 
 .main .bg .navigation {
@@ -79,7 +80,7 @@ body {
 }
 
 .main .bg .navigation .nav-ul .nav-li {
-  max-width: 170px;
+  max-width: 175px;
   height: 80px;
   border-top: none;
   padding: 30px;
@@ -159,7 +160,11 @@ body {
   white-space: nowrap;
 }
 
-.hiThere {
+.main .bg .header-text-block .getIt:hover {
+  background-color: #212433;
+}
+
+.main .hiThere {
   width: 100%;
   margin-top: 100px;
   display: flex;
@@ -168,29 +173,29 @@ body {
   flex-wrap: wrap;
 }
 
-.hiThere .hiThere-left {
+.main .hiThere .hiThere-left {
   max-width: 600px;
   width: 100%;
   height: 404px;
-  background-color: #0e0e19;
+  background: rgba(44, 36, 54, 0.73);
   padding-top: 80px;
 }
 
-.hiThere .hiThere-left .left-inner {
+.main .hiThere .hiThere-left .left-inner {
   max-width: 376px;
   width: 100%;
   height: auto;
   margin: 0 auto;
 }
 
-.hiThere .hiThere-left .left-inner .hiThereText {
+.main .hiThere .hiThere-left .left-inner .hiThereText {
   color: white;
   font-size: 16px;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
 }
 
-.hiThere .hiThere-left .left-inner .hiThereH3 {
+.main .hiThere .hiThere-left .left-inner .hiThereH3 {
   color: white;
   font-size: 45px;
   font-family: "Roboto", sans-serif;
@@ -198,7 +203,7 @@ body {
   margin-top: 20px;
 }
 
-.hiThere .hiThere-left .left-inner .hiThereP {
+.main .hiThere .hiThere-left .left-inner .hiThereP {
   color: white;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
@@ -206,7 +211,7 @@ body {
   margin-bottom: 20px;
 }
 
-.hiThere .hiThere-left .left-inner .join {
+.main .hiThere .hiThere-left .left-inner .join {
   max-width: 270px;
   width: 100%;
   height: 72px;
@@ -219,22 +224,22 @@ body {
   cursor: pointer;
 }
 
-.hiThere .hiThere-right {
+.main .hiThere .hiThere-right {
   max-width: 600px;
   width: 100%;
   height: auto;
 }
 
-.hiThere .hiThere-right .image {
+.main .hiThere .hiThere-right .image {
   width: 100%;
   height: 100%;
 }
 
-.aboutmi {
+.main .aboutmi {
   margin-top: 200px;
 }
 
-.aboutmi .first-block {
+.main .aboutmi .first-block {
   max-width: 536px;
   display: flex;
   justify-content: space-around;
@@ -243,7 +248,7 @@ body {
   margin: 0 auto;
 }
 
-.aboutmi .first-block .info {
+.main .aboutmi .first-block .info {
   max-width: 150px;
   height: 25px;
   color: white;
@@ -251,16 +256,16 @@ body {
   padding: 15px;
 }
 
-.aboutmi .first-block .info:hover {
+.main .aboutmi .first-block .info:hover {
   border-bottom: #FF7644 4px solid;
 }
 
-.aboutmi .second-block {
+.main .aboutmi .second-block {
   max-width: 784px;
   margin: 0 auto;
 }
 
-.aboutmi .second-block .AboutMassCafe {
+.main .aboutmi .second-block .AboutMassCafe {
   font-size: 48px;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -268,14 +273,14 @@ body {
   margin: 50px 0;
 }
 
-.aboutmi .second-block .massP {
+.main .aboutmi .second-block .massP {
   color: white;
   font-size: 22px;
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
-.aboutmi .third-block {
+.main .aboutmi .third-block {
   width: 100%;
   height: auto;
   margin: 80px auto 0;
@@ -285,7 +290,7 @@ body {
   flex-wrap: wrap;
 }
 
-.aboutmi .third-block .block {
+.main .aboutmi .third-block .block {
   max-width: 376px;
   width: 100%;
   height: auto;
@@ -293,13 +298,13 @@ body {
   background-color: #191C28;
 }
 
-.aboutmi .third-block .block .block-title {
+.main .aboutmi .third-block .block .block-title {
   color: white;
   font-size: 22px;
   font-family: "Roboto", sans-serif;
 }
 
-.aboutmi .third-block .block .whiteline {
+.main .aboutmi .third-block .block .whiteline {
   max-width: 80px;
   height: 2px;
   background-color: white;
@@ -307,20 +312,20 @@ body {
   margin-bottom: 20px;
 }
 
-.aboutmi .third-block .block .blockP {
+.main .aboutmi .third-block .block .blockP {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   max-width: 300px;
 }
 
-.aboutmi .third-block .block:nth-child(1) {
+.main .aboutmi .third-block .block:nth-child(1) {
   background-image: url(../images/block1.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.aboutmi .third-block .block:nth-child(2) {
+.main .aboutmi .third-block .block:nth-child(2) {
   background-image: url(../images/blcok2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -328,7 +333,7 @@ body {
   padding-bottom: 25px;
 }
 
-.aboutmi .third-block .block:nth-child(2) .learnMore {
+.main .aboutmi .third-block .block:nth-child(2) .learnMore {
   max-width: 280px;
   width: 100%;
   height: 52px;
@@ -342,29 +347,29 @@ body {
   margin-top: 20px;
 }
 
-.aboutmi .third-block .block:nth-child(2) .learnMore:hover {
+.main .aboutmi .third-block .block:nth-child(2) .learnMore:hover {
   background-color: white;
   color: black;
 }
 
-.aboutmi .third-block .block:nth-child(3) {
+.main .aboutmi .third-block .block:nth-child(3) {
   background-image: url(../images/blcok3.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.aboutmi .third-block .block:nth-child(4) {
+.main .aboutmi .third-block .block:nth-child(4) {
   background-image: url(../images/block4.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.mapSection {
+.main .mapSection {
   width: 100%;
   margin-top: 100px;
 }
 
-.mapSection .OurLoc {
+.main .mapSection .OurLoc {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 22px;
@@ -372,7 +377,7 @@ body {
   margin-bottom: 50px;
 }
 
-.mapSection .map {
+.main .mapSection .map {
   max-width: 1300px;
   width: 100%;
   height: 80vh;
@@ -383,7 +388,7 @@ body {
   position: relative;
 }
 
-.mapSection .map .storeLoc {
+.main .mapSection .map .storeLoc {
   max-width: 200px;
   width: 100%;
   height: 200px;
@@ -394,13 +399,13 @@ body {
   left: 10%;
 }
 
-.mapSection .map .storeLoc .fa-map-marker-alt {
+.main .mapSection .map .storeLoc .fa-map-marker-alt {
   color: #FF7644;
   font-size: 22px;
   text-align: center;
 }
 
-.mapSection .map .storeLoc .store {
+.main .mapSection .map .storeLoc .store {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -408,7 +413,7 @@ body {
   margin: 5px 0;
 }
 
-.mapSection .map .storeLoc .orangeLine {
+.main .mapSection .map .storeLoc .orangeLine {
   max-width: 28px;
   width: 100%;
   height: 2px;
@@ -416,29 +421,29 @@ body {
   margin: 0 auto;
 }
 
-.mapSection .map .storeLoc:nth-child(2) {
+.main .mapSection .map .storeLoc:nth-child(2) {
   top: 55%;
   left: 25%;
 }
 
-.mapSection .map .storeLoc:nth-child(3) {
+.main .mapSection .map .storeLoc:nth-child(3) {
   top: 15%;
   left: 55%;
 }
 
-.mapSection .map .storeLoc:nth-child(4) {
+.main .mapSection .map .storeLoc:nth-child(4) {
   top: 70%;
   left: 65%;
 }
 
-.footer-line {
+.main .footer-line {
   max-width: 1000px;
   background-color: white;
   height: 1px;
   margin: 0 auto;
 }
 
-.copyright {
+.main .copyright {
   color: white;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -446,10 +451,11 @@ body {
   text-align: center;
 }
 
-.footer-block {
+.main .footer-block {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   align-items: flex-start;
   max-width: 1300px;
   width: 100%;
@@ -458,7 +464,7 @@ body {
   padding: 30px;
 }
 
-.footer-block .footer-p {
+.main .footer-block .footer-p {
   width: 376px;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -466,35 +472,35 @@ body {
   margin-top: 20px;
 }
 
-.footer-block .footer-li {
+.main .footer-block .footer-li {
   margin-bottom: 20px;
 }
 
-.footer-block .footer-li .footer-a {
+.main .footer-block .footer-li .footer-a {
   font-size: 1.2rem;
   color: white;
   font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
 }
 
-.footer-block .footer-li .footer-a .fab {
+.main .footer-block .footer-li .footer-a .fab {
   margin-right: 15px;
 }
 
-.footer-block .getSpecial {
+.main .footer-block .getSpecial {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 
-.footer-block .mail-block {
+.main .footer-block .mail-block {
   max-width: 376px;
   width: 100%;
   height: 56px;
   margin-top: 20px;
 }
 
-.footer-block .mail-block .email {
+.main .footer-block .mail-block .email {
   width: 100%;
   height: 56px;
   background-color: #38373f;
@@ -503,6 +509,113 @@ body {
   padding-left: 25px;
   font-family: "Roboto", sans-serif;
   outline: none;
+}
+
+.main2 .bg2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/555.jpeg);
+  height: 1000px;
+}
+
+.main2 .bg2 .navigation {
+  width: 100%;
+  border-bottom: white 1px solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main2 .bg2 .navigation .nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main2 .bg2 .navigation .nav-ul .nav-li {
+  max-width: 175px;
+  height: 80px;
+  border-top: none;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.main2 .bg2 .navigation .nav-ul .nav-li .nav-a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.main2 .bg2 .navigation .nav-ul .nav-li .fab {
+  font-size: 16px;
+  color: white;
+  margin-left: 8px;
+}
+
+.main2 .bg2 .navigation .nav-ul .nav-li:hover {
+  background-color: #1f1f35;
+}
+
+.main2 .bg2 .navigation .burger-bar {
+  display: none;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 2%;
+  right: 10%;
+}
+
+@media (max-width: 940px) {
+  .main2 .bg2 .navigation .burger-bar {
+    display: block;
+  }
+}
+
+.main2 .bg2 .header-text-block {
+  max-width: 1000px;
+  height: auto;
+  margin: 200px auto 0;
+  padding-bottom: 150px;
+}
+
+.main2 .bg2 .header-text-block .soMuch {
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.main2 .bg2 .header-text-block .header-p {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main2 .bg2 .header-text-block .getIt {
+  max-width: 230px;
+  height: 62px;
+  background: rgba(41, 37, 58, 0.73);
+  border-radius: 30px;
+  padding: 22px 27px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.main2 .bg2 .header-text-block .getIt .getItText {
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.main2 .bg2 .header-text-block .getIt:hover {
+  background-color: #212433;
 }
 
 @media (max-width: 940px) {
