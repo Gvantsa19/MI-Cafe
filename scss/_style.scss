@@ -34,7 +34,7 @@ body {
                 }
                 .nav-li {
                     &:hover {
-                        background-color: rgb(31, 31, 53);
+                        background: rgb(31, 31, 53);
                     }
                 }
             }
@@ -54,8 +54,8 @@ body {
         }
         .header-text-block {
             max-width: 1000px;
-            height: auto;
-            margin: 200px auto 0;
+            height: $auto;
+            margin: 200px $auto 0;
             padding-bottom: 150px;
             .soMuch {
                 text-align: center;
@@ -108,7 +108,7 @@ body {
             .left-inner {
                 max-width: 376px;
                 width: $width;
-                height: auto;
+                height: $auto;
                 margin: $margin0auto;
                 .hiThereText {
                     color: $white;
@@ -147,7 +147,7 @@ body {
         .hiThere-right {
             max-width: 600px;
             width: $width;
-            height: auto;
+            height: $auto;
             .image {
                 width: $width;
                 height: 100%;
@@ -194,14 +194,14 @@ body {
         }
         .third-block {
             width: 100%;
-            height: auto;
-            margin: 80px auto 0;
+            height: $auto;
+            margin: 80px $auto 0;
             @include flex (flex, space-evenly, center);
             flex-wrap: wrap;
             .block {
                 max-width: 376px;
                 width: 100%;
-                height: auto;
+                height: $auto;
                 padding: 400px 25px 25px;
                 background-color: #191C28;
                 .block-title {
@@ -344,8 +344,8 @@ body {
         align-items: flex-start;
         max-width: 1300px;
         width: $width;
-        height: auto;
-        margin: 100px auto 0;
+        height: $auto;
+        margin: 100px $auto 0;
         padding: $padding20;
         .footer-p {
             width: 376px;
@@ -393,7 +393,7 @@ body {
     @extend %mainsize;
     .bg2 {
         @include backgroundimg(cover, no-repeat);
-        background-image: url(../images/555.jpeg);
+        background-image: url(../images/7777.jpeg);
         height: 1000px;
         .navigation {
             width: $width;
@@ -442,8 +442,8 @@ body {
         }
         .header-text-block {
             max-width: 1000px;
-            height: auto;
-            margin: 200px auto 0;
+            height: $auto;
+            margin: 200px $auto 0;
             padding-bottom: 150px;
             .soMuch {
                 text-align: center;
@@ -479,6 +479,28 @@ body {
                 &:hover {
                     background-color: $maincolor;
                 }
+            }
+        }
+        .Finest-Beans {
+            color: $white;
+            font-size: $font22;
+            font-family: $font-family;
+            text-transform: uppercase;
+        }
+        .cite {
+            color: $white;
+            font-size: $font14;
+            font-family: $font-family;
+        }
+        .four-block {
+            @include flex(flex, space-around, center);
+            max-width: 800px;
+            width: $width;
+            height: $auto;
+            .four-li {
+                color: $white;
+                font-size: $font16;
+                font-family: $font-family; 
             }
         }
     }

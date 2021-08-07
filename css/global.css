@@ -101,7 +101,7 @@ body {
 }
 
 .main .bg .navigation .nav-ul .nav-li:hover {
-  background-color: #1f1f35;
+  background: #1f1f35;
 }
 
 .main .bg .navigation .burger-bar {
@@ -514,7 +514,7 @@ body {
 .main2 .bg2 {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/555.jpeg);
+  background-image: url(../images/7777.jpeg);
   height: 1000px;
 }
 
@@ -616,6 +616,34 @@ body {
 
 .main2 .bg2 .header-text-block .getIt:hover {
   background-color: #212433;
+}
+
+.main2 .bg2 .Finest-Beans {
+  color: white;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.main2 .bg2 .cite {
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.main2 .bg2 .four-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
+
+.main2 .bg2 .four-block .four-li {
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 940px) {
