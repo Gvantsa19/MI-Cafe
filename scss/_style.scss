@@ -393,8 +393,8 @@ body {
     @extend %mainsize;
     .bg2 {
         @include backgroundimg(cover, no-repeat);
-        background-image: url(../images/7777.jpeg);
-        height: 1000px;
+        background-image: url(../images/pexels-photo-872890.jpeg);
+        height: 900px;
         .navigation {
             width: $width;
             border-bottom: $white 1px solid;
