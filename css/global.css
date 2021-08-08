@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-.main, .main .aboutmi, .main2 {
+.main, .main .aboutmi, .main2, .main2 .testimonials-bg, .main2 .two-blocks {
   max-width: 1600px;
   width: 100%;
   height: auto;
@@ -646,19 +646,23 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   height: auto;
   margin: 70px auto 0;
 }
 
 .main2 .bg2 .four-block .four-li {
+  max-width: 207px;
+  width: 100%;
   color: white;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   border: 2px #212433 solid;
-  padding: 30px;
+  padding: 15px;
   cursor: pointer;
+  background: rgba(28, 28, 29, 0.73);
+  text-align: center;
 }
 
 .main2 .bg2 .four-block .four-li:hover {
@@ -667,8 +671,9 @@ body {
 
 .main2 .bg2 .coffee-imgs {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   max-width: 1300px;
   width: 100%;
   height: auto;
@@ -710,6 +715,104 @@ body {
 .main2 .bg2 .coffee-imgs .package3 .image {
   width: 100%;
   height: 100%;
+}
+
+.main2 .testimonials-bg {
+  background-image: url(../images);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+}
+
+.main2 .testimonials-bg .comments {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.main2 .testimonials-bg .comments .list {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+.main2 .testimonials-bg .comments .list .userName {
+  color: white;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.main2 .testimonials-bg .comments .list .userImg {
+  width: 170px;
+  height: 150px;
+  border: 5px #212433 solid;
+}
+
+.main2 .testimonials-bg .comments .list .paragraph {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.main2 .testimonials-bg .btns {
+  max-width: 300px;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main2 .testimonials-bg .btns .fas {
+  color: white;
+  font-size: 45px;
+}
+
+.main2 .two-blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main2 .two-blocks .left-block {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  background-color: #0c0d1a;
+}
+
+.main2 .two-blocks .left-block .tractorDiv {
+  max-width: 70px;
+  width: 100%;
+  height: 70px;
+  background-color: #FF7644;
+  border-radius: 50px;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+
+.main2 .two-blocks .left-block .MassImpressions,
+.main2 .two-blocks .left-block .leftBlockP {
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  width: 376px;
+}
+
+.main2 .two-blocks .left-block .Sustainable {
+  color: white;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 940px) {
