@@ -182,7 +182,7 @@ body {
   max-width: 600px;
   width: 100%;
   height: 404px;
-  background: rgba(44, 36, 54, 0.73);
+  background-color: #212433;
   padding-top: 80px;
 }
 
@@ -227,6 +227,12 @@ body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  text-transform: uppercase;
+}
+
+.main .hiThere .hiThere-left .left-inner .join:hover {
+  background-color: white;
+  color: black;
 }
 
 .main .hiThere .hiThere-right {
@@ -828,6 +834,81 @@ body {
 .main2 .two-blocks .right-block .image {
   width: 100%;
   height: 100%;
+}
+
+.main2 .footer-line {
+  max-width: 1000px;
+  background-color: white;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.main2 .copyright {
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main2 .footer-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 1300px;
+  width: 100%;
+  height: auto;
+  margin: 100px auto 0;
+  padding: 30px;
+}
+
+.main2 .footer-block .footer-p {
+  width: 376px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.main2 .footer-block .footer-li {
+  margin-bottom: 20px;
+}
+
+.main2 .footer-block .footer-li .footer-a {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.main2 .footer-block .footer-li .footer-a .fab {
+  margin-right: 15px;
+}
+
+.main2 .footer-block .getSpecial {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.main2 .footer-block .mail-block {
+  max-width: 376px;
+  width: 100%;
+  height: 56px;
+  margin-top: 20px;
+}
+
+.main2 .footer-block .mail-block .email {
+  width: 100%;
+  height: 56px;
+  background-color: #38373f;
+  border: none;
+  opacity: 0.6;
+  padding-left: 25px;
+  font-family: "Roboto", sans-serif;
+  outline: none;
 }
 
 @media (max-width: 940px) {
