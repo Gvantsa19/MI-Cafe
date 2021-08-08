@@ -610,34 +610,47 @@ body {
     }
     .two-blocks {
         @include flex(flex, center, center);
+        flex-wrap: wrap;
         @extend %mainsize;
+        margin-top: $margin-top100;
         .left-block {
-            max-width: 700px;
+            max-width: 550px;
             width: $width;
             height: $auto;
             background-color: #0c0d1a;
+            padding: 80px;
             .tractorDiv {
-                max-width: 70px;
+                max-width: 80px;
                 width: $width;
-                height: 70px;
+                height: 80px;
                 background-color: $orange;
                 border-radius: 50px;
-                padding: 20px 20px;
+                padding: 25px;
                 margin-bottom: $margin-bottom20;
             }
             .MassImpressions,
             .leftBlockP {
                 color: $white;
-                font-size: $font16;
+                font-size: $font22;
                 font-family: $font-family;
                 width: 376px;
             }
             .Sustainable {
                 color: $white;
-                font-size: $font22;
+                font-size: 4rem;
+                width: 376px;
                 font-family: $font-family;
                 margin-top: $margin-top20;
                 margin-bottom: $margin-bottom20;
+            }
+        }
+        .right-block {
+            max-width: 550px;
+            width: $width;
+            height: 626px;
+            .image {
+                width: $width;
+                height: 100%;
             }
         }
     }

@@ -780,39 +780,54 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
 }
 
 .main2 .two-blocks .left-block {
-  max-width: 700px;
+  max-width: 550px;
   width: 100%;
   height: auto;
   background-color: #0c0d1a;
+  padding: 80px;
 }
 
 .main2 .two-blocks .left-block .tractorDiv {
-  max-width: 70px;
+  max-width: 80px;
   width: 100%;
-  height: 70px;
+  height: 80px;
   background-color: #FF7644;
   border-radius: 50px;
-  padding: 20px 20px;
+  padding: 25px;
   margin-bottom: 20px;
 }
 
 .main2 .two-blocks .left-block .MassImpressions,
 .main2 .two-blocks .left-block .leftBlockP {
   color: white;
-  font-size: 16px;
+  font-size: 22px;
   font-family: "Roboto", sans-serif;
   width: 376px;
 }
 
 .main2 .two-blocks .left-block .Sustainable {
   color: white;
-  font-size: 22px;
+  font-size: 4rem;
+  width: 376px;
   font-family: "Roboto", sans-serif;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.main2 .two-blocks .right-block {
+  max-width: 550px;
+  width: 100%;
+  height: 626px;
+}
+
+.main2 .two-blocks .right-block .image {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 940px) {
