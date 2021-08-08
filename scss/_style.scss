@@ -1,8 +1,9 @@
 body {
-    background-color: $maincolor;
+    background-color: $black;
 }
 .main {
     @extend %mainsize;
+    margin: $margin0auto;
     .bg {
         @include backgroundimg(cover, no-repeat);
         background-image: url(../images/222.jpeg);
@@ -10,6 +11,7 @@ body {
         .navigation {
             width: $width;
             border-bottom: $white 1px solid;
+            background: rgba(30, 30, 31, 0.73);
             @include flex (flex, space-around, center);
             .nav-ul {
                 @include flex (flex, space-between, center);
@@ -391,14 +393,16 @@ body {
 }
 .main2 {
     @extend %mainsize;
+    margin: $margin0auto;
     .bg2 {
         @include backgroundimg(cover, no-repeat);
-        background-image: url(../images/pexels-photo-872890.jpeg);
+        background-image: url(../images/pexels-photo-4017496.jpeg);
         height: 900px;
         .navigation {
             width: $width;
             border-bottom: $white 1px solid;
             @include flex (flex, space-around, center);
+            background: rgba(30, 30, 31, 0.73);
             .nav-ul {
                 @include flex (flex, space-between, center);
                 flex-wrap: wrap;
@@ -422,7 +426,7 @@ body {
                 }
                 .nav-li {
                     &:hover {
-                        background-color: rgb(31, 31, 53);
+                        background-color: $black;
                     }
                 }
             }
@@ -494,13 +498,61 @@ body {
         }
         .four-block {
             @include flex(flex, space-around, center);
+            flex-wrap: wrap;
             max-width: 800px;
             width: $width;
             height: $auto;
+            margin: 70px $auto 0;
             .four-li {
                 color: $white;
                 font-size: $font16;
                 font-family: $font-family; 
+                border: 2px $maincolor solid;
+                padding: $padding20;
+                cursor: pointer;
+            }
+            .four-li {
+                &:hover {
+                    background-color: $maincolor;
+                }
+            }
+        }
+        .coffee-imgs {
+            @include flex(flex, space-between, center);
+            max-width: 1300px;
+            width: $width;
+            height: $auto;
+            margin: 70px $auto 0;
+            background: rgba(28, 28, 29, 0.73);
+            .package1 {
+                max-width: 650px;
+                width: $width;
+                height: 450px;
+                border: 2px $white solid;
+                .image {
+                    width: $width;
+                    height: 100%;
+                }
+            }
+            .package2 {
+                max-width: 650px;
+                width: $width;
+                height: 350px;
+                border: 2px $white solid;
+                .image {
+                    width: $width;
+                    height: 100%;
+                }
+            }
+            .package3 {
+                max-width: 650px;
+                width: $width;
+                height: 400px;
+                border: 2px $white solid;
+                .image {
+                    width: $width;
+                    height: 100%;
+                }
             }
         }
     }
