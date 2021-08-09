@@ -838,7 +838,7 @@ body {
 .main2 .two-blocks .right-block {
   max-width: 550px;
   width: 100%;
-  height: 626px;
+  height: auto;
 }
 
 .main2 .two-blocks .right-block .image {
@@ -1113,7 +1113,7 @@ body {
 .main3 .two-blocks .right-block {
   max-width: 580px;
   width: 100%;
-  height: 435px;
+  height: auto;
 }
 
 .main3 .two-blocks .right-block .image {

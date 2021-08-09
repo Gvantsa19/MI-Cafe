@@ -662,7 +662,7 @@ body {
         .right-block {
             max-width: 550px;
             width: $width;
-            height: 626px;
+            height: auto;
             .image {
                 width: $width;
                 height: 100%;
@@ -897,7 +897,7 @@ body {
         .right-block {
             max-width: 580px;
             width: $width;
-            height: 435px;
+            height: auto;
             .image {
                 width: $width;
                 height: 100%;
