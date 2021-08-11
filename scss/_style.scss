@@ -460,16 +460,16 @@ body {
                     cursor: pointer;
                 }
                 .conactUs {
-                    max-width: 220px;
+                    max-width: 180px;
                     width: $width;
-                    height: 60px;
+                    height: 50px;
                     background-color: rgb(112, 112, 108);
                     border-radius: $radius10;
                     cursor: pointer;
                     padding: 18px 30px;
                     .contact-a {
                         color: $white;
-                        font-size: $rem15;
+                        font-size: 1rem;
                         font-family: $font-family;
                         text-transform: uppercase;
                     }
@@ -523,9 +523,9 @@ body {
                 flex-wrap: wrap;
                 margin-top: $margin-top20;
                 .testyCoffe {
-                    max-width: 300px;
+                    max-width: 250px;
                     width: $width;
-                    height: 80px;
+                    height: 70px;
                     background-color: rgb(112, 112, 108);
                     border: $none;
                     border-radius: $radius10;
@@ -541,9 +541,9 @@ body {
                     }
                 }
                 .learnMore {
-                    max-width: 300px;
+                    max-width: 250px;
                     width: $width;
-                    height: 80px;
+                    height: 70px;
                     border: 2px $white solid;
                     background-color: unset;
                     border-radius: $radius10;
@@ -782,6 +782,94 @@ body {
                             background-color: $main2;
                         }
                     }
+                }
+            }
+        }
+    }
+    .SPECIALMENU {
+        width: $width;
+        height: $auto;
+        @include backgroundimg(cover, no-repeat);
+        background-image: url(../images/aa.jpeg);
+        padding: $padding20;
+        .CAFENOD {
+            color: $white;
+            font-size: 2.5rem;
+            font-weight: bold;
+            font-family: $font-family;
+            text-align: $center;
+            margin-top: $margin-top100;
+        }
+        .list-ul {
+            @include flex(flex, space-around, center);
+            max-width: 800px;
+            width: $width;
+            height: $auto;
+            margin: 25px $auto 0;
+            .list-li {
+                color: rgb(143, 140, 140);
+                font-family: $font-family;
+                text-transform: uppercase;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .list-li {
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+        .coffee-blocks {
+            max-width: 1300px;
+            width: $width;
+            height: $auto;
+            margin: 100px $auto 0;
+            .Cblock {
+                width: $width;
+                height: $auto;
+                @include flex(flex, space-between, center);
+                margin-bottom: $margin-bottom20;
+                .cofimg {
+                    max-width: 250px;
+                    width: $width;
+                    height: 200px;
+                    border: 2px $white solid;
+                    opacity: 0.5;
+                    .image {
+                        width: $width;
+                        height: 100%;
+                    }
+                }
+                .cofimg {
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+                .texts {
+                    max-width: 600px;
+                    width: $width;
+                    height: $auto;
+                    .AMERICANO {
+                        color: $white;
+                        font-family: $font-family;
+                        font-size: $rem15;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    }
+                    .Thecoffee {
+                        color: rgb(165, 162, 162);
+                        font-family: $font-family;
+                        font-size: 1rem;
+                    }
+                }
+                .spaces {
+                    color: $white;
+                }
+                .prices {
+                    color: $white;
+                    font-family: $font-family;
+                    font-size: 3rem;
+                    font-weight: bold;
                 }
             }
         }
