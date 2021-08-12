@@ -193,7 +193,7 @@ body {
 .main .bg .header-text-block .getIt {
   max-width: 230px;
   height: 62px;
-  background-color: #FF7644;
+  background-color: #3f3b33;
   border-radius: 30px;
   padding: 22px 35px;
   margin: 0 auto;
@@ -209,7 +209,7 @@ body {
 }
 
 .main .bg .header-text-block .getIt:hover {
-  background-color: #212433;
+  background-color: #38373f;
 }
 
 .main .hiThere {
@@ -1247,8 +1247,41 @@ body {
   border-bottom: 5px white solid;
 }
 
-.main3 .bg3 .navigation .nav-ul .nav-li:hover {
-  background-color: black;
+.main3 .bg3 .navigation .contactBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.main3 .bg3 .navigation .contactBlock .fa-search,
+.main3 .bg3 .navigation .contactBlock .fa-shopping-bag {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.main3 .bg3 .navigation .contactBlock .conactUs {
+  max-width: 180px;
+  width: 100%;
+  height: 50px;
+  background-color: #70706c;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 18px 30px;
+}
+
+.main3 .bg3 .navigation .contactBlock .conactUs .contact-a {
+  color: white;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.main3 .bg3 .navigation .contactBlock .conactUs:hover {
+  background-color: #5c5956;
 }
 
 .main3 .bg3 .navigation .burger-bar {
@@ -1722,6 +1755,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin-bottom: 25px;
   margin-top: 100px;
+  text-align: center;
 }
 
 .main5 .bg5 .homeandcontact {
@@ -1730,6 +1764,7 @@ body {
   align-items: center;
   max-width: 180px;
   height: auto;
+  margin: 0 auto;
 }
 
 .main5 .bg5 .homeandcontact .home-a {
@@ -1755,6 +1790,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
 }
@@ -1766,9 +1802,12 @@ body {
   max-width: 300px;
   width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
 
-.main5 .information-block .information .inner-info .fa-envelope {
+.main5 .information-block .information .inner-info .fa-envelope,
+.main5 .information-block .information .inner-info .fa-map-marker-alt,
+.main5 .information-block .information .inner-info .fa-phone {
   font-size: 1.5rem;
   color: #746453;
   background-color: #e7e7e5;
@@ -1814,6 +1853,7 @@ body {
   padding: 15px;
   background-color: #f8f2f2;
   border: none;
+  margin-bottom: 20px;
 }
 
 .main5 .information-block .forms .inputs .nameinp::placeholder {
@@ -1850,6 +1890,92 @@ body {
 
 .main5 .information-block .forms .sendMassage:hover {
   background-color: #3a3936;
+}
+
+.main5 .map {
+  max-width: 1300px;
+  width: 100%;
+  height: 90vh;
+  margin: 100px auto 0;
+}
+
+.main5 .map .maap {
+  width: 100%;
+}
+
+.main5 .footer-line {
+  max-width: 1000px;
+  background-color: white;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.main5 .copyright {
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main5 .footer-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 1300px;
+  width: 100%;
+  height: auto;
+  margin: 100px auto 0;
+  padding: 30px;
+}
+
+.main5 .footer-block .footer-p {
+  width: 376px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.main5 .footer-block .footer-li {
+  margin-bottom: 20px;
+}
+
+.main5 .footer-block .footer-li .footer-a {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.main5 .footer-block .footer-li .footer-a .fab {
+  margin-right: 15px;
+}
+
+.main5 .footer-block .getSpecial {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.main5 .footer-block .mail-block {
+  max-width: 376px;
+  width: 100%;
+  height: 56px;
+  margin-top: 20px;
+}
+
+.main5 .footer-block .mail-block .email {
+  width: 100%;
+  height: 56px;
+  background-color: #38373f;
+  border: none;
+  opacity: 0.6;
+  padding-left: 25px;
+  font-family: "Roboto", sans-serif;
+  outline: none;
 }
 
 @media (max-width: 940px) {
