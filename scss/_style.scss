@@ -134,36 +134,41 @@ body {
         }
     }
     .hiThere {
+        max-width: 1600px;
         width: $width;
-        margin-top: 100px;
-        @include flex (flex, center, center);
+        margin: 100px $auto 0;
+        @include flex (flex, space-around, center);
         flex-wrap: wrap;
         .hiThere-left {
-            max-width: 600px;
+            max-width: 700px;
             width: $width;
-            height: 404px;
-            background-color: $maincolor;
-            padding-top: 80px;
+            height: auto;
+            background-color: $white;
+            padding: 80px;
             .left-inner {
                 max-width: 376px;
                 width: $width;
                 height: $auto;
                 margin: $margin0auto;
                 .hiThereText {
-                    color: $white;
+                    color: $black;
                     font-size: $font16;
                     text-transform: uppercase;
                     font-family: $font-family;
                 }
                 .hiThereH3 {
-                    color: $white;
-                    font-size: 45px;
+                    color: $black;
+                    font-size: 35px;
                     font-family: $font-family;
                     text-transform: capitalize;
                     margin-top: $margin-top20;
                 }
+                .title {
+                    font-family: $font-family;
+                    font-weight: bold;
+                }
                 .hiThereP {
-                    color: $white;
+                    color: $black;
                     font-size: $font16;
                     font-family: $font-family;
                     margin-top: $margin-top20;
@@ -173,8 +178,8 @@ body {
                     max-width: 270px;
                     width: $width;
                     height: 72px;
-                    background-color: $orange;
-                    border-radius: 36px;
+                    background-color: rgb(68, 68, 66);
+                    border-radius: $radius10;
                     border: $none;
                     color: $white;
                     font-size: $font16;
@@ -184,8 +189,7 @@ body {
                 }
                 .join {
                     &:hover {
-                        background-color: $white;
-                        color: $black;
+                        background-color: $grey;
                     }
                 }
             }
@@ -285,7 +289,7 @@ body {
                         height: 52px;
                         border: $white 1px solid;
                         border-radius: 25px;
-                        background-color: $orange;
+                        background-color: rgb(80, 79, 75);
                         color: $white;
                         font-family: $font-family;
                         font-size: $font16;

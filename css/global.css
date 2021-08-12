@@ -213,20 +213,21 @@ body {
 }
 
 .main .hiThere {
+  max-width: 1600px;
   width: 100%;
-  margin-top: 100px;
+  margin: 100px auto 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .main .hiThere .hiThere-left {
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
-  height: 404px;
-  background-color: #212433;
-  padding-top: 80px;
+  height: auto;
+  background-color: white;
+  padding: 80px;
 }
 
 .main .hiThere .hiThere-left .left-inner {
@@ -237,22 +238,27 @@ body {
 }
 
 .main .hiThere .hiThere-left .left-inner .hiThereText {
-  color: white;
+  color: black;
   font-size: 16px;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
 }
 
 .main .hiThere .hiThere-left .left-inner .hiThereH3 {
-  color: white;
-  font-size: 45px;
+  color: black;
+  font-size: 35px;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
   margin-top: 20px;
 }
 
+.main .hiThere .hiThere-left .left-inner .title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
 .main .hiThere .hiThere-left .left-inner .hiThereP {
-  color: white;
+  color: black;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   margin-top: 20px;
@@ -263,8 +269,8 @@ body {
   max-width: 270px;
   width: 100%;
   height: 72px;
-  background-color: #FF7644;
-  border-radius: 36px;
+  background-color: #444442;
+  border-radius: 10px;
   border: none;
   color: white;
   font-size: 16px;
@@ -274,8 +280,7 @@ body {
 }
 
 .main .hiThere .hiThere-left .left-inner .join:hover {
-  background-color: white;
-  color: black;
+  background-color: #38373f;
 }
 
 .main .hiThere .hiThere-right {
@@ -393,7 +398,7 @@ body {
   height: 52px;
   border: white 1px solid;
   border-radius: 25px;
-  background-color: #FF7644;
+  background-color: #504f4b;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
