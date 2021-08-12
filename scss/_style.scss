@@ -1434,4 +1434,101 @@ body {
             }
         }
     }
+    .information-block {
+        max-width: 1300px;
+        width: $width;
+        height: $auto;
+        margin: 100px $auto 0;
+        background-color: $white;
+        padding: $padding20;
+        .information {
+            @include flex(flex, space-around, center);
+            width: $width;
+            height: $auto;
+            .inner-info {
+                @include flex(flex, space-between, center);
+                max-width: 300px;
+                width: $width;
+                height: $auto;
+                .fa-envelope {
+                    font-size: $rem15;
+                    color: rgb(116, 100, 83);
+                    background-color: rgb(231, 231, 229);
+                    padding: $padding20;
+                }
+                .ADRESS {
+                    display: flex;
+                    flex-direction: column;
+                    .EMAILADRESS {
+                        font-size: $fontrem;
+                        font-family: $font-family;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    }
+                    .mails {
+                        color: $grey;
+                        font-family: $font-family;
+                        font-size: $font16;
+                        font-weight: bold;
+                    }
+                }
+                .add {
+                    margin-left: 25px;
+                }
+            }
+        }
+        .forms {
+            .inputs {
+                @include flex(flex, space-around, center);
+                flex-wrap: wrap;
+                margin: 50px 0;
+                .nameinp {
+                    max-width: 500px;
+                    width: $width;
+                    height: 50px;
+                    outline: $none;
+                    padding: 15px;
+                    background-color: rgb(248, 242, 242);
+                    border: $none;
+                }
+                .nameinp {
+                    &::placeholder {
+                        font-family: $font-family;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .textarea {
+                max-width: 1120px;
+                width: $width;
+                height: 180px;
+                margin-left: 60px;
+                background-color: rgb(248, 242, 242);
+                border: $none;
+                padding: 15px;
+                font-family: $font-family;
+                font-weight: bold;
+            }
+            .sendMassage {
+                max-width: 200px;
+                width: $width;
+                height: 60px;
+                background-color: $main2;
+                border: $none;
+                margin: 65px;
+                color: $white;
+                font-family: $font-family;
+                font-size: 1rem;
+                text-transform: uppercase;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .sendMassage {
+                &:hover {
+                    background-color: rgb(58, 57, 54);
+                }
+            }
+        }
+        
+    }
 }
