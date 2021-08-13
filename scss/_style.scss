@@ -450,7 +450,7 @@ body {
     .bg2 {
         @include backgroundimg(cover, no-repeat);
         background-image: url(../images/coffee-3224527_960_720.jpg);
-        height: 900px;
+        height: 90vh;
         .navigation {
             width: $width;
             border-bottom: $white 1px solid;
