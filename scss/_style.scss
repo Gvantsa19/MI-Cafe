@@ -57,7 +57,7 @@ body {
                     cursor: pointer;
                 }
                 .conactUs {
-                    max-width: 180px;
+                    max-width: 163px;
                     width: $width;
                     height: 50px;
                     background-color: rgb(112, 112, 108);
@@ -501,7 +501,7 @@ body {
                     cursor: pointer;
                 }
                 .conactUs {
-                    max-width: 180px;
+                    max-width: 163px;
                     width: $width;
                     height: 50px;
                     background-color: rgb(112, 112, 108);
@@ -1004,7 +1004,7 @@ body {
                     cursor: pointer;
                 }
                 .conactUs {
-                    max-width: 180px;
+                    max-width: 163px;
                     width: $width;
                     height: 50px;
                     background-color: rgb(112, 112, 108);
@@ -1270,6 +1270,38 @@ body {
                     }
                 }
             }
+            .contactBlock {
+                @include flex(flex, space-between, center);
+                max-width: 300px;
+                width: $width;
+                height: auto;
+                .fa-search,
+                .fa-shopping-bag {
+                    font-size: $rem15;
+                    color: $white;
+                    cursor: pointer;
+                }
+                .conactUs {
+                    max-width: 163px;
+                    width: $width;
+                    height: 50px;
+                    background-color: rgb(112, 112, 108);
+                    border-radius: $radius10;
+                    cursor: pointer;
+                    padding: 18px 30px;
+                    .contact-a {
+                        color: $white;
+                        font-size: 1rem;
+                        font-family: $font-family;
+                        text-transform: uppercase;
+                    }
+                }
+                .conactUs {
+                    &:hover {
+                        background-color: rgb(92, 89, 86);
+                    }
+                }
+            }
             .burger-bar {
                 display: $none;
                 color: $white;
@@ -1332,6 +1364,69 @@ body {
             }
         }
     }
+    .footer-line {
+        max-width: 1000px;
+        background-color: $white;
+        height: 1px;
+        margin: $margin0auto;
+    }
+    .copyright {
+        color: $white;
+        font-size: $font14;
+        font-family: $font-family;
+        margin-top: $margin-top20;
+        text-align: center;
+    }
+    .footer-block {
+        @include flex (flex, space-around, center);
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1300px;
+        width: $width;
+        height: $auto;
+        margin: 100px $auto 0;
+        padding: $padding20;
+        .footer-p {
+            width: 376px;
+            color: $white;
+            font-family: $font-family;
+            font-size: $font16;
+            margin-top: $margin-top20;
+        }
+        .footer-li {
+            margin-bottom: $margin-bottom20;
+            .footer-a {
+                font-size: $fontrem;
+                color: $white;
+                font-family: $font-family;
+                margin-bottom: $margin-bottom20;
+                .fab {
+                    margin-right: $margin-right;
+                }
+            }
+        }
+        .getSpecial {
+            color: $white;
+            font-family: $font-family;
+            font-size: $font16;
+        }
+        .mail-block {
+            max-width: 376px;
+            width: 100%;
+            height: 56px;
+            margin-top: $margin-top20;
+            .email {
+                width: 100%;
+                height: 56px;
+                background-color: $grey;
+                border: $none;
+                opacity: 0.6;
+                padding-left: 25px;
+                font-family: $font-family;
+                outline: $none;
+            }
+        }
+    }
 }
 .main5 {
     @extend %mainsize;
@@ -1389,7 +1484,7 @@ body {
                     cursor: pointer;
                 }
                 .conactUs {
-                    max-width: 180px;
+                    max-width: 163px;
                     width: $width;
                     height: 50px;
                     background-color: rgb(112, 112, 108);
