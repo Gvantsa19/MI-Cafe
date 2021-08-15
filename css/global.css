@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-.main, .main .aboutmi, .main2, .main3, .main3 .bg3, .main3 .two-blocks, .main4 .testimonials-bg, .main5, .main6, .main6 .shop-blocks, .main6 .aroma {
+.main, .main .aboutmi, .main2, .main3, .main3 .bg3, .main3 .two-blocks, .main4 .testimonials-bg, .main4 .blocks, .main5, .main6, .main6 .shop-blocks, .main6 .aroma {
   max-width: 1600px;
   width: 100%;
   height: auto;
@@ -1605,11 +1605,20 @@ body {
   }
 }
 
+.main4 .meet {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
 .main4 .testimonials-bg {
   background-image: url(../images);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 70px;
 }
 
 .main4 .testimonials-bg .comments {
@@ -1640,7 +1649,7 @@ body {
 .main4 .testimonials-bg .comments .list .userImg {
   width: 170px;
   height: 150px;
-  border: 5px #212433 solid;
+  border: 5px #413d3a solid;
 }
 
 .main4 .testimonials-bg .comments .list .paragraph {
@@ -1662,6 +1671,64 @@ body {
 .main4 .testimonials-bg .btns .fas {
   color: white;
   font-size: 45px;
+}
+
+.main4 .values {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.main4 .blocks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 100px auto 0;
+}
+
+.main4 .blocks .block {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.main4 .blocks .block .peoplefirst {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.main4 .blocks .block .line {
+  background-color: #645839;
+  max-width: 500px;
+  width: 100%;
+  height: 2px;
+  margin: 50px 0;
+}
+
+.main4 .blocks .block .paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+.main4 .blocks .block .img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin: 25px auto 0;
+}
+
+.main4 .blocks .block .img .image {
+  width: 100%;
+  border-radius: 10px;
 }
 
 .main4 .footer-line {

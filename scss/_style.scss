@@ -1318,11 +1318,19 @@ body {
             }
         }
     }
+    .meet {
+        color: $white;
+        font-size: 3rem;
+        text-align: $center;
+        text-transform: capitalize;
+        font-size: $font-family;
+        font-weight: bold;
+        margin-top: $margin-top100;
+    }
     .testimonials-bg {
         background-image: url(../images);
         @include backgroundimg(cover, no-repeat);
         @extend %mainsize;
-        margin-top: $margin-top70;
         .comments {
             @include flex(flex, space-around, center);
             flex-wrap: wrap;
@@ -1344,7 +1352,7 @@ body {
                 .userImg {
                     width: 170px;
                     height: 150px;
-                    border: 5px $maincolor solid;
+                    border: 5px rgb(65, 61, 58) solid;
                 }
                 .paragraph {
                     color: $white;
@@ -1362,6 +1370,55 @@ body {
             .fas {
                 color: $white;
                 font-size: 45px;
+            }
+        }
+    }
+    .values {
+        font-family: $font-family;
+        font-size: 3rem;
+        text-align: $center;
+        color: $white;
+        margin-top: $margin-top100
+    }
+    .blocks {
+        @include flex(flex, space-around, center);
+        flex-wrap: wrap;
+        @extend %mainsize;
+        margin: 100px $auto 0;
+        .block {
+            max-width: 600px;
+            width: $width;
+            height: $auto;
+            background-color: $white;
+            padding: $padding20;
+            border-radius: $radius10;
+            margin-bottom: $margin-bottom20;
+            .peoplefirst {
+                font-family: $font-family;
+                font-size: $rem15;
+                text-transform: capitalize;
+                text-align: $center;
+            }
+            .line {
+                background-color: rgb(100, 88, 57);
+                max-width: 500px;
+                width: $width;
+                height: 2px;
+                margin: 50px 0;
+            }
+            .paragraph {
+                font-family: $font-family;
+                font-size: $fontrem;
+            }
+            .img {
+                max-width: 350px;
+                width: $width;
+                height: $auto;
+                margin: 25px $auto 0;
+                .image {
+                    width: $width;
+                    border-radius: $radius10;
+                }
             }
         }
     }
