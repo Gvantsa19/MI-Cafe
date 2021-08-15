@@ -336,53 +336,13 @@ body {
         .map {
             max-width: 1300px;
             width: 100%;
-            height: 80vh;
+            height: 90vh;
             margin: $margin0auto;
-            background-image: url(../images/photo-1543191878-f6a3e470454e.jpeg);
             @include backgroundimg(cover, no-repeat);
             position: $relative;
-            .storeLoc {
-                max-width: 200px;
-                width: 100%;
-                height: 200px;
-                display: flex;
-                flex-direction: column;
-                position: $absolute;
-                top: 15%;
-                left: 10%;
-                .fa-map-marker-alt {
-                    color: $orange;
-                    font-size: $font22;
-                    text-align: center;
-                }
-                .store {
-                    color: $white;
-                    font-family: $font-family;
-                    font-size: $font16;
-                    text-align: center;
-                    margin: 5px 0;
-                }
-                .orangeLine {
-                    max-width: 28px;
-                    width: 100%;
-                    height: 2px;
-                    background-color: $orange;
-                    margin: $margin0auto;
-                }
-            }
-            .storeLoc {
-                &:nth-child(2){
-                    top: 55%;
-                    left: 25%;
-                }
-                &:nth-child(3){
-                    top: 15%;
-                    left: 55%;
-                }
-                &:nth-child(4){
-                    top: 70%;
-                    left: 65%;
-                }
+            .maap {
+                width: $width;
+                height: 90vh;
             }
         }
     }
@@ -1626,7 +1586,7 @@ body {
         width: $width;
         height: $auto;
         margin: 100px $auto 0;
-        background-color: #5c5956;
+        background-color: #e2e2e2;
         padding: 80px;
         .information {
             @include flex(flex, space-around, center);

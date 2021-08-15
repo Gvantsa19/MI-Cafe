@@ -451,60 +451,16 @@ body {
 .main .mapSection .map {
   max-width: 1300px;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   margin: 0 auto;
-  background-image: url(../images/photo-1543191878-f6a3e470454e.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
-.main .mapSection .map .storeLoc {
-  max-width: 200px;
+.main .mapSection .map .maap {
   width: 100%;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 15%;
-  left: 10%;
-}
-
-.main .mapSection .map .storeLoc .fa-map-marker-alt {
-  color: #FF7644;
-  font-size: 22px;
-  text-align: center;
-}
-
-.main .mapSection .map .storeLoc .store {
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  margin: 5px 0;
-}
-
-.main .mapSection .map .storeLoc .orangeLine {
-  max-width: 28px;
-  width: 100%;
-  height: 2px;
-  background-color: #FF7644;
-  margin: 0 auto;
-}
-
-.main .mapSection .map .storeLoc:nth-child(2) {
-  top: 55%;
-  left: 25%;
-}
-
-.main .mapSection .map .storeLoc:nth-child(3) {
-  top: 15%;
-  left: 55%;
-}
-
-.main .mapSection .map .storeLoc:nth-child(4) {
-  top: 70%;
-  left: 65%;
+  height: 90vh;
 }
 
 .main .footer-line {
@@ -1970,7 +1926,7 @@ body {
   width: 100%;
   height: auto;
   margin: 100px auto 0;
-  background-color: #5c5956;
+  background-color: #e2e2e2;
   padding: 80px;
 }
 
