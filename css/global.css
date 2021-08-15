@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-.main, .main .aboutmi, .main2, .main3, .main3 .bg3, .main3 .two-blocks, .main4 .testimonials-bg, .main4 .blocks, .main5, .main6, .main6 .shop-blocks, .main6 .aroma {
+.main, .main .aboutmi, .main2, .main3, .main3 .bg3, .main3 .two-blocks, .main4 .bg4, .main4 .testimonials-bg, .main4 .blocks, .main5, .main6, .main6 .shop-blocks, .main6 .aroma {
   max-width: 1600px;
   width: 100%;
   height: auto;
@@ -64,7 +64,7 @@ body {
 .main .bg {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/breadcrumb_bg_01.jpg);
+  background-image: url(../images/img.png);
   height: 800px;
 }
 
@@ -226,7 +226,7 @@ body {
   max-width: 700px;
   width: 100%;
   height: auto;
-  background-color: white;
+  background-color: #130f02;
   padding: 80px;
 }
 
@@ -238,7 +238,7 @@ body {
 }
 
 .main .hiThere .hiThere-left .left-inner .fa-coffee {
-  color: #645839;
+  color: #3d3b37;
   font-size: 22px;
 }
 
@@ -247,6 +247,7 @@ body {
   font-size: 16px;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 .main .hiThere .hiThere-left .left-inner .hiThereH3 {
@@ -256,11 +257,13 @@ body {
   text-transform: capitalize;
   margin-top: 20px;
   border-bottom: 4px black solid;
+  color: white;
 }
 
 .main .hiThere .hiThere-left .left-inner .title {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  color: white;
 }
 
 .main .hiThere .hiThere-left .left-inner .hiThereP {
@@ -268,6 +271,7 @@ body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   margin-top: 20px;
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -301,7 +305,7 @@ body {
 }
 
 .main .aboutmi {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .main .aboutmi .first-block {
@@ -314,11 +318,13 @@ body {
 }
 
 .main .aboutmi .first-block .info {
-  max-width: 150px;
+  max-width: 250px;
   height: 25px;
   color: white;
   font-family: "Roboto", sans-serif;
   padding: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .main .aboutmi .first-block .info:hover {
@@ -530,11 +536,14 @@ body {
 }
 
 .main .footer-block .footer-p {
-  width: 376px;
+  max-width: 376px;
+  width: 100%;
+  height: auto;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main .footer-block .footer-li {
@@ -1133,11 +1142,14 @@ body {
 }
 
 .main2 .footer-block .footer-p {
-  width: 376px;
+  max-width: 376px;
+  width: 100%;
+  height: auto;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main2 .footer-block .footer-li {
@@ -1460,11 +1472,14 @@ body {
 }
 
 .main3 .footer-block .footer-p {
-  width: 376px;
+  max-width: 376px;
+  width: 100%;
+  height: auto;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main3 .footer-block .footer-li {
@@ -1504,6 +1519,12 @@ body {
   padding-left: 25px;
   font-family: "Roboto", sans-serif;
   outline: none;
+}
+
+.main4 .bg4 {
+  background-image: url(../images/breadcrumb_bg_01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main4 .bg4 .navigation {
@@ -1693,7 +1714,7 @@ body {
   max-width: 600px;
   width: 100%;
   height: auto;
-  background-color: white;
+  background-color: #3d3b37;
   padding: 30px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -1707,7 +1728,7 @@ body {
 }
 
 .main4 .blocks .block .line {
-  background-color: #645839;
+  background-color: black;
   max-width: 500px;
   width: 100%;
   height: 2px;
@@ -1760,11 +1781,14 @@ body {
 }
 
 .main4 .footer-block .footer-p {
-  width: 376px;
+  max-width: 376px;
+  width: 100%;
+  height: auto;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main4 .footer-block .footer-li {
@@ -1946,7 +1970,7 @@ body {
   width: 100%;
   height: auto;
   margin: 100px auto 0;
-  background-color: white;
+  background-color: #5c5956;
   padding: 80px;
 }
 
@@ -2095,11 +2119,14 @@ body {
 }
 
 .main5 .footer-block .footer-p {
-  width: 376px;
+  max-width: 376px;
+  width: 100%;
+  height: auto;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main5 .footer-block .footer-li {
@@ -2262,6 +2289,7 @@ body {
   height: auto;
   background-color: #8f8f8f;
   padding: 30px;
+  border-radius: 10px;
 }
 
 .main6 .shop-blocks .shopBlock .icons1 {
@@ -2537,11 +2565,14 @@ body {
 }
 
 .main6 .footer-block .footer-p {
-  width: 376px;
+  max-width: 376px;
+  width: 100%;
+  height: auto;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main6 .footer-block .footer-li {
