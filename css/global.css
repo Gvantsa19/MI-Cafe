@@ -193,7 +193,7 @@ body {
 .main .bg .header-text-block .getIt {
   max-width: 230px;
   height: 62px;
-  background-color: #3f3b33;
+  background-color: #312204;
   border-radius: 30px;
   padding: 22px 35px;
   margin: 0 auto;
@@ -226,7 +226,6 @@ body {
   max-width: 700px;
   width: 100%;
   height: auto;
-  background-color: #130f02;
   padding: 80px;
 }
 
@@ -687,7 +686,7 @@ body {
   width: 100%;
   height: auto;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin: 0 auto;
 }
 
 .main2 .bg2 .header-text-block .coffeeBtns .testyCoffe {
@@ -875,8 +874,13 @@ body {
   height: auto;
 }
 
+.main2 .saleCoffee .sales-block .sale .heartAndLinks .heart {
+  color: red;
+}
+
 .main2 .saleCoffee .sales-block .sale .heartAndLinks .links-block {
   height: auto;
+  display: flex;
 }
 
 .main2 .saleCoffee .sales-block .sale .heartAndLinks .links-block .fa-link {
@@ -887,7 +891,6 @@ body {
 }
 
 .main2 .saleCoffee .sales-block .sale .heartAndLinks .links-block .links {
-  flex-direction: column;
   display: none;
 }
 

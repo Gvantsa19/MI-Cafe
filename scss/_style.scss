@@ -113,7 +113,7 @@ body {
             .getIt {
                 max-width: 230px;
                 height: 62px;
-                background-color: rgb(63, 59, 51);
+                background-color: rgb(49, 34, 4);
                 border-radius: 30px;
                 padding: 22px 35px;
                 margin: $margin0auto;
@@ -143,7 +143,6 @@ body {
             max-width: 700px;
             width: $width;
             height: auto;
-            background-color: rgb(19, 15, 2);
             padding: 80px;
             .left-inner {
                 max-width: 418px;
@@ -531,7 +530,7 @@ body {
                 width: $width;
                 height: auto;
                 flex-wrap: wrap;
-                margin-top: $margin-top20;
+                margin: $margin0auto;
                 .testyCoffe {
                     max-width: 250px;
                     width: $width;
@@ -690,8 +689,12 @@ body {
                     @include flex(flex, space-between, center);
                     width: $width;
                     height: $auto;
+                    .heart {
+                        color: red;
+                    }
                     .links-block {
                         height: $auto;
+                        display: flex;
                         .fa-link {
                             color: $white;
                             font-size: $fontrem;
@@ -699,7 +702,6 @@ body {
                             padding: 10px;
                         }
                         .links {
-                            flex-direction: column;
                             display: none;
                             .fab {
                                 color: $white;

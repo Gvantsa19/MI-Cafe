@@ -1,6 +1,10 @@
-let btnn = document.getElementById('clickForLinks');
-let linkss = document.getElementById('linkss');
+let btnn = document.querySelectorAll('.linnk');
+let links = document.querySelectorAll('.links');
 
-btnn.addEventListener('click', function (){
-    linkss.classList.toggle('link-active');
-});
+document.querySelectorAll('.linnk').forEach((item) => {
+    item.addEventListener('click', function() {
+        links.forEach((element) => {
+            element.classList.toggle('link-active');
+        })
+    })
+})
