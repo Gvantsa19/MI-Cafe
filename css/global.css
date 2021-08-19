@@ -152,12 +152,18 @@ body {
   background-color: #5c5956;
 }
 
+@media (max-width: 1284px) {
+  .main .bg .navigation .contactBlock {
+    display: none;
+  }
+}
+
 .main .bg .navigation .burger-bar {
   display: none;
   color: white;
-  font-size: 25px;
+  font-size: 36px;
   position: absolute;
-  top: 2%;
+  top: 5%;
   right: 10%;
 }
 
@@ -176,7 +182,7 @@ body {
 
 .main .bg .header-text-block .soMuch {
   text-align: center;
-  font-size: 80px;
+  font-size: 70px;
   color: white;
   font-family: "Roboto", sans-serif;
 }
@@ -638,12 +644,18 @@ body {
   background-color: #5c5956;
 }
 
+@media (max-width: 1284px) {
+  .main2 .bg2 .navigation .contactBlock {
+    display: none;
+  }
+}
+
 .main2 .bg2 .navigation .burger-bar {
   display: none;
   color: white;
-  font-size: 25px;
+  font-size: 36px;
   position: absolute;
-  top: 2%;
+  top: 5%;
   right: 10%;
 }
 
@@ -701,6 +713,7 @@ body {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .main2 .bg2 .header-text-block .coffeeBtns .testyCoffe:hover {
@@ -719,6 +732,7 @@ body {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .main2 .bg2 .header-text-block .coffeeBtns .learnMore:hover {
@@ -754,7 +768,7 @@ body {
 .main2 .bg2 .coffee-imgs .package1 {
   max-width: 650px;
   width: 100%;
-  height: 450px;
+  height: auto;
   border: 2px white solid;
 }
 
@@ -766,7 +780,7 @@ body {
 .main2 .bg2 .coffee-imgs .package2 {
   max-width: 650px;
   width: 100%;
-  height: 350px;
+  height: auto;
   border: 2px white solid;
 }
 
@@ -778,7 +792,7 @@ body {
 .main2 .bg2 .coffee-imgs .package3 {
   max-width: 650px;
   width: 100%;
-  height: 400px;
+  height: auto;
   border: 2px white solid;
 }
 
@@ -802,8 +816,9 @@ body {
 
 .main2 .saleCoffee .seeAllAndSpecial {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -811,6 +826,7 @@ body {
   color: white;
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
 }
 
 .main2 .saleCoffee .seeAllAndSpecial .seeAll {
@@ -822,6 +838,7 @@ body {
   cursor: pointer;
   padding: 20px 45px;
   white-space: nowrap;
+  margin-bottom: 20px;
 }
 
 .main2 .saleCoffee .seeAllAndSpecial .seeAll .seeAll-a {
@@ -990,6 +1007,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   max-width: 800px;
   width: 100%;
   height: auto;
@@ -1061,15 +1079,19 @@ body {
   font-size: 1rem;
 }
 
-.main2 .SPECIALMENU .coffee-blocks .Cblock .spaces {
-  color: white;
-}
-
 .main2 .SPECIALMENU .coffee-blocks .Cblock .prices {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
   font-weight: bold;
+}
+
+.main2 .SPECIALMENU .coffee-blocks .cactive {
+  display: none;
+}
+
+.main2 .SPECIALMENU .coffee-blocks .cblock {
+  display: block;
 }
 
 .main2 .footer-line {
@@ -1240,12 +1262,18 @@ body {
   background-color: #5c5956;
 }
 
+@media (max-width: 1284px) {
+  .main3 .bg3 .navigation .contactBlock {
+    display: none;
+  }
+}
+
 .main3 .bg3 .navigation .burger-bar {
   display: none;
   color: white;
-  font-size: 25px;
+  font-size: 36px;
   position: absolute;
-  top: 2%;
+  top: 5%;
   right: 10%;
 }
 
@@ -1258,7 +1286,7 @@ body {
 .main3 .bg3 .OurLocations {
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
   margin-top: 70px;
 }
@@ -1269,6 +1297,7 @@ body {
   font-size: 16px;
   text-align: center;
   margin-bottom: 70px;
+  margin-top: 20px;
 }
 
 .main3 .bg3 .locations {
@@ -1334,7 +1363,6 @@ body {
   color: white;
   font-size: 22px;
   font-family: "Roboto", sans-serif;
-  width: 376px;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -1570,12 +1598,18 @@ body {
   background-color: #5c5956;
 }
 
+@media (max-width: 1284px) {
+  .main4 .bg4 .navigation .contactBlock {
+    display: none;
+  }
+}
+
 .main4 .bg4 .navigation .burger-bar {
   display: none;
   color: white;
-  font-size: 25px;
+  font-size: 36px;
   position: absolute;
-  top: 2%;
+  top: 5%;
   right: 10%;
 }
 
@@ -1644,7 +1678,7 @@ body {
   height: 40px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -1709,6 +1743,10 @@ body {
 .main4 .blocks .block .img .image {
   width: 100%;
   border-radius: 10px;
+}
+
+.main4 .blocks .block:hover {
+  background-color: #92928f;
 }
 
 .main4 .footer-line {
@@ -1880,12 +1918,18 @@ body {
   background-color: #5c5956;
 }
 
+@media (max-width: 1284px) {
+  .main5 .bg5 .navigation .contactBlock {
+    display: none;
+  }
+}
+
 .main5 .bg5 .navigation .burger-bar {
   display: none;
   color: white;
-  font-size: 25px;
+  font-size: 36px;
   position: absolute;
-  top: 2%;
+  top: 5%;
   right: 10%;
 }
 
@@ -1976,8 +2020,8 @@ body {
 .main5 .information-block .information .inner-info .ADRESS .mails {
   color: #38373f;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
   font-weight: bold;
+  font-size: 12px;
 }
 
 .main5 .information-block .information .inner-info .add {
@@ -2025,13 +2069,13 @@ body {
   height: 60px;
   background-color: #332b22;
   border: none;
-  margin: 65px;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .main5 .information-block .forms .sendMassage:hover {
@@ -2218,12 +2262,18 @@ body {
   background-color: #5c5956;
 }
 
+@media (max-width: 1284px) {
+  .main6 .bg6 .navigation .contactBlock {
+    display: none;
+  }
+}
+
 .main6 .bg6 .navigation .burger-bar {
   display: none;
   color: white;
-  font-size: 25px;
+  font-size: 36px;
   position: absolute;
-  top: 2%;
+  top: 5%;
   right: 10%;
 }
 
@@ -2283,6 +2333,10 @@ body {
 .main6 .shop-blocks .shopBlock .brewed {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+}
+
+.main6 .shop-blocks .shopBlock:hover {
+  background-color: #cfcfcd;
 }
 
 .main6 .aroma {
@@ -2416,8 +2470,8 @@ body {
 .main6 .aroma .details-block .detail .inner-info .ADRESS .mails {
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
   font-weight: bold;
+  font-size: 12px;
 }
 
 .main6 .aroma .details-block .detail .inner-info .add {
