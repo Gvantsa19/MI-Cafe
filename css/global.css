@@ -199,7 +199,7 @@ body {
 .main .bg .header-text-block .getIt {
   max-width: 230px;
   height: 62px;
-  background-color: #312204;
+  background-color: #171818;
   border-radius: 30px;
   padding: 22px 35px;
   margin: 0 auto;
@@ -215,7 +215,7 @@ body {
 }
 
 .main .bg .header-text-block .getIt:hover {
-  background-color: #38373f;
+  background-color: black;
 }
 
 .main .hiThere {
@@ -314,17 +314,18 @@ body {
 }
 
 .main .aboutmi .first-block {
-  max-width: 536px;
+  max-width: 836px;
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
 }
 
 .main .aboutmi .first-block .info {
-  max-width: 250px;
-  height: 25px;
+  max-width: 750px;
+  height: auto;
   color: white;
   font-family: "Roboto", sans-serif;
   padding: 15px;
@@ -332,12 +333,13 @@ body {
   cursor: pointer;
 }
 
-.main .aboutmi .first-block .info:hover {
-  border-bottom: #FF7644 4px solid;
+.main .aboutmi .first-block .info .what:hover {
+  color: #523939;
 }
 
 .main .aboutmi .second-block {
-  max-width: 784px;
+  display: none;
+  max-width: 384px;
   margin: 0 auto;
 }
 
@@ -354,6 +356,14 @@ body {
   font-size: 22px;
   font-family: "Roboto", sans-serif;
   text-align: center;
+}
+
+.main .aboutmi .second-block-active .second-block {
+  display: block;
+  background-color: #2c2c2c;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 .main .aboutmi .third-block {

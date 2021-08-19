@@ -118,7 +118,7 @@ body {
             .getIt {
                 max-width: 230px;
                 height: 62px;
-                background-color: rgb(49, 34, 4);
+                background-color:  #171818;
                 border-radius: 30px;
                 padding: 22px 35px;
                 margin: $margin0auto;
@@ -133,7 +133,7 @@ body {
             }
             .getIt {
                 &:hover {
-                    background-color: $grey;
+                    background-color: black;
                 }
             }
         }
@@ -221,27 +221,31 @@ body {
         @extend %mainsize;
         margin-top: $margin-top100;
         .first-block {
-            max-width: 536px;
-            @include flex(flex, space-around, center);
+            max-width: 836px;
+            width: $width;
+            height: $auto;
+            display: flex;
+            justify-content: space-around;
             flex-wrap: wrap;
             margin: $margin0auto;
             .info {
-                max-width: 250px;
-                height: 25px;
+                max-width: 750px;
+                height: $auto;
                 color: $white;
                 font-family: $font-family;
                 padding: 15px;
                 font-size: $fontrem;
                 cursor: pointer;
-            }
-            .info {
-                &:hover {
-                    border-bottom: $orange 4px solid;
+                .what {
+                    &:hover {
+                        color: rgb(82, 57, 57);
+                    }
                 }
             }
         }
         .second-block {
-            max-width: 784px;
+            display: $none;
+            max-width: 384px;
             margin: $margin0auto;
             .AboutMassCafe {
                 font-size: 48px;
@@ -256,6 +260,13 @@ body {
                 font-family: $font-family;
                 text-align: center;
             }
+        }
+        .second-block-active .second-block {
+            display: block;
+            background-color: rgb(44, 44, 44);
+            padding: $padding15;
+            border-radius: $radius10;
+            margin-top: $margin-top20;
         }
         .third-block {
             width: 100%;
