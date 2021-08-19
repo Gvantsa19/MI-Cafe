@@ -728,7 +728,7 @@ body {
                             padding: 10px;
                         }
                         .links {
-                            display: none;
+                            display: $none;
                             .fab {
                                 color: $white;
                                 font-size: $fontrem;
@@ -736,9 +736,9 @@ body {
                                 padding: 8px;
                             }
                         }
-                        .link-active {
-                            display: flex;
-                        }
+                    }
+                    .linnk .links-block {
+                        display: block;
                     }
                     .fa-heart{
                         color: $white;

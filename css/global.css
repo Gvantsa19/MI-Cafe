@@ -928,8 +928,8 @@ body {
   padding: 8px;
 }
 
-.main2 .saleCoffee .sales-block .sale .heartAndLinks .links-block .link-active {
-  display: flex;
+.main2 .saleCoffee .sales-block .sale .heartAndLinks .linnk .links-block {
+  display: block;
 }
 
 .main2 .saleCoffee .sales-block .sale .heartAndLinks .fa-heart {
