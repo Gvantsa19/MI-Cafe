@@ -2287,8 +2287,11 @@ body {
 }
 .preview {
     @extend %mainsize;
+    @include flex(flex, space-around, center);
+    flex-wrap: wrap;
+    background-color: $white;
     .product_preview {
-        max-width: 800px;
+        max-width: 750px;
         width: $width;
         height: $auto;
         display: flex;
@@ -2319,5 +2322,65 @@ body {
         height: 400px;
         background-position: 50%;
         background: no-repeat;
+    }
+    .bllock {
+        max-width: 750px;
+        width: $width;
+        height: $auto;
+        background-color: $white;
+        padding: $padding20;
+        .starsandtitle {
+            @include flex(flex, space-around, center);
+            .AMERICANO {
+                font-size: $fontrem;
+                font-family: $font-family;
+                color: rgb(37, 37, 37);
+                font-weight: bold;
+            }
+            .fa-star {
+                font-size: $fontrem;
+                color: rgb(194, 127, 26);
+            }
+        }
+        .Thecoffee {
+            font-size: $font16;
+            font-family: $font-family;
+            color: rgb(37, 37, 37);
+            margin-top: $margin-top20;
+            margin-bottom: $margin-bottom20;
+        }
+        .price {
+            font-size: $rem15;
+            font-weight: bold;
+        }
+        .buy {
+            max-width: 150px;
+            width: $width;
+            height: 50px;
+            background-color: rgb(43, 43, 42);
+            border: $none;
+            border-radius: $radius10;
+            margin-left: 25px;
+            color: $white;
+            font-size: $rem15;
+            font-family: $font-family;
+            cursor: pointer;
+        }
+        .buy {
+            &:hover {
+                background-color: rgb(68, 67, 67);
+            }
+        }
+        .link-ul {
+            margin-top: $margin-top20;
+            @include flex(flex, space-between, center);
+            max-width: 200px;
+            width: $width;
+            height: $auto;
+            .fab {
+                color: $black;
+                font-size: $rem15;
+            }
+        }
     }
 }
