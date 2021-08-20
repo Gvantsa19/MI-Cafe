@@ -60,7 +60,7 @@ body {
                     max-width: 163px;
                     width: $width;
                     height: 50px;
-                    background-color: rgb(112, 112, 108);
+                    background-color: #ff7644;
                     border-radius: $radius10;
                     cursor: pointer;
                     padding: 18px 30px;
@@ -191,7 +191,7 @@ body {
                     max-width: 270px;
                     width: $width;
                     height: 72px;
-                    background-color: rgb(68, 68, 66);
+                    background-color: #ff7644;
                     border-radius: $radius10;
                     border: $none;
                     color: $white;
@@ -227,7 +227,7 @@ body {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
-            margin: $margin0auto;
+            margin: 50px auto;
             .info {
                 max-width: 750px;
                 height: $auto;
@@ -488,7 +488,7 @@ body {
                     max-width: 163px;
                     width: $width;
                     height: 50px;
-                    background-color: rgb(112, 112, 108);
+                    background-color: #ff7644;
                     border-radius: $radius10;
                     cursor: pointer;
                     padding: 18px 30px;
@@ -1012,7 +1012,7 @@ body {
                     max-width: 163px;
                     width: $width;
                     height: 50px;
-                    background-color: rgb(112, 112, 108);
+                    background-color: #ff7644;
                     border-radius: $radius10;
                     cursor: pointer;
                     padding: 18px 30px;
@@ -1301,7 +1301,7 @@ body {
                     max-width: 163px;
                     width: $width;
                     height: 50px;
-                    background-color: rgb(112, 112, 108);
+                    background-color: #ff7644;
                     border-radius: $radius10;
                     cursor: pointer;
                     padding: 18px 30px;
@@ -1529,6 +1529,7 @@ body {
 }
 .main5 {
     @extend %mainsize;
+    margin: $margin0auto;
     .bg5 {
         width: $width;
         height: $auto;
@@ -1586,7 +1587,7 @@ body {
                     max-width: 163px;
                     width: $width;
                     height: 50px;
-                    background-color: rgb(112, 112, 108);
+                    background-color: #ff7644;
                     border-radius: $radius10;
                     cursor: pointer;
                     padding: 18px 30px;
@@ -1729,7 +1730,7 @@ body {
                 max-width: 200px;
                 width: $width;
                 height: 60px;
-                background-color: $main2;
+                background-color: #ff7644;
                 border: $none;
                 color: $white;
                 font-family: $font-family;
@@ -1882,7 +1883,7 @@ body {
                     max-width: 163px;
                     width: $width;
                     height: 50px;
-                    background-color: rgb(112, 112, 108);
+                    background-color: #ff7644;
                     border-radius: $radius10;
                     cursor: pointer;
                     padding: 18px 30px;
@@ -2078,7 +2079,7 @@ body {
                     max-width: 163px;
                     width: $width;
                     height: 50px;
-                    background-color: rgb(77, 77, 75);
+                    background-color: #ff7644;
                     border-radius: $radius10;
                     cursor: pointer;
                     padding: 18px 30px;
@@ -2261,7 +2262,7 @@ body {
                 max-width: 163px;
                 width: $width;
                 height: 50px;
-                background-color: rgb(112, 112, 108);
+                background-color: #ff7644;
                 border-radius: $radius10;
                 cursor: pointer;
                 padding: 18px 30px;
@@ -2370,7 +2371,7 @@ body {
             max-width: 150px;
             width: $width;
             height: 50px;
-            background-color: rgb(43, 43, 42);
+            background-color: #ff7644;
             border: $none;
             border-radius: $radius10;
             margin-left: 25px;
@@ -2426,7 +2427,7 @@ body {
                 max-width: 100px;
                 width: $width;
                 height: 40px;
-                background-color: rgb(34, 34, 33);
+                background-color: #ff7644;
                 border: $none;
                 border-radius: $radius10;
                 color: $white;
