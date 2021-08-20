@@ -19,9 +19,9 @@ function getUsers (page) {
             let li = document.createElement('li');
             li.classList.add('list');
 
-            let span = document.createElement('span');
-            span.textContent = item.first_name;
-            span.classList.add('userName');
+            let h4 = document.createElement('h4');
+            h4.textContent = item.first_name;
+            h4.classList.add('userName');
 
             let image = document.createElement('img');
             image.src = item.avatar;
@@ -32,7 +32,7 @@ function getUsers (page) {
             paragraph.textContent = 'We make sense of it all: from building and monetizing the online presence to growing an engaged following, from the promotion of latest projects to developing strategic brand partnerships. Whatever suits best and delivers most. We connect the dots.';
 
             li.appendChild(image);
-            li.appendChild(span);
+            li.appendChild(h4);
             li.appendChild(paragraph);
 
             fragment.appendChild(li);

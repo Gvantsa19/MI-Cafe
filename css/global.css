@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-.main, .main .aboutmi, .main2, .main3, .main3 .bg3, .main3 .two-blocks, .main4 .bg4, .main4 .testimonials-bg, .main4 .blocks, .main5, .main6, .main6 .shop-blocks, .main6 .aroma, .preview {
+.main, .main .aboutmi, .main2, .main3, .main3 .bg3, .main3 .two-blocks, .main4 .bg4, .main4 .testimonials-bg, .main4 .blocks, .main5, .main6, .main6 .shop-blocks, .main6 .aroma, .preview, .indetails {
   max-width: 1600px;
   width: 100%;
   height: auto;
@@ -64,7 +64,7 @@ body {
 .main .bg {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/img.png);
+  background-image: url(../images/bg_05.png);
   height: 800px;
 }
 
@@ -1187,7 +1187,7 @@ body {
 }
 
 .main3 .bg3 {
-  background-image: url(../images/photo-1543191878-f6a3e470454e.jpeg);
+  background-image: url(../images/img.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 150px;
@@ -1362,7 +1362,7 @@ body {
   max-width: 550px;
   width: 100%;
   height: auto;
-  background-color: #272522;
+  background-color: #171818;
   padding: 55px;
   display: flex;
   flex-direction: column;
@@ -1634,7 +1634,7 @@ body {
   font-size: 3rem;
   text-align: center;
   text-transform: capitalize;
-  font-size: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin-top: 100px;
 }
@@ -1656,7 +1656,7 @@ body {
 .main4 .testimonials-bg .comments .list {
   display: flex;
   flex-direction: column;
-  max-width: 250px;
+  max-width: 500px;
   width: 100%;
   height: auto;
   padding: 30px;
@@ -1668,12 +1668,16 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 .main4 .testimonials-bg .comments .list .userImg {
-  width: 170px;
-  height: 150px;
-  border: 5px #413d3a solid;
+  max-width: 200px;
+  width: 100%;
+  height: 200px;
+  border: 3px #413d3a solid;
+  margin: 0 auto;
 }
 
 .main4 .testimonials-bg .comments .list .paragraph {
@@ -1695,6 +1699,17 @@ body {
 .main4 .testimonials-bg .btns .fas {
   color: white;
   font-size: 45px;
+}
+
+.main4 .immg {
+  max-width: 1300px;
+  width: 100%;
+  height: auto;
+  margin: 70px auto;
+}
+
+.main4 .immg .image {
+  width: 100%;
 }
 
 .main4 .values {
@@ -2856,6 +2871,140 @@ body {
 .preview .bllock .link-ul .fab {
   color: black;
   font-size: 1.5rem;
+}
+
+.indetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-top: 100px;
+  padding: 60px;
+}
+
+.indetails .boox {
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.indetails .boox .PRODUCT {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.indetails .boox .box {
+  display: none;
+  margin-top: 50px;
+}
+
+.indetails .boox .box .parag {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: gray;
+}
+
+.indetails .boox .box .see {
+  max-width: 100px;
+  width: 100%;
+  height: 40px;
+  background-color: #222221;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.indetails .boox .box .see:hover {
+  background-color: #646262;
+}
+
+.indetails .practive .box {
+  display: block;
+}
+
+.footer-line {
+  max-width: 1000px;
+  background-color: white;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.copyright {
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 1300px;
+  width: 100%;
+  height: auto;
+  margin: 100px auto 0;
+  padding: 30px;
+}
+
+.footer-block .footer-p {
+  max-width: 376px;
+  width: 100%;
+  height: auto;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-block .footer-li {
+  margin-bottom: 20px;
+}
+
+.footer-block .footer-li .footer-a {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.footer-block .footer-li .footer-a .fab {
+  margin-right: 15px;
+}
+
+.footer-block .getSpecial {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.footer-block .mail-block {
+  max-width: 376px;
+  width: 100%;
+  height: 56px;
+  margin-top: 20px;
+}
+
+.footer-block .mail-block .email {
+  width: 100%;
+  height: 56px;
+  background-color: #38373f;
+  border: none;
+  opacity: 0.6;
+  padding-left: 25px;
+  font-family: "Roboto", sans-serif;
+  outline: none;
 }
 
 @media (max-width: 940px) {

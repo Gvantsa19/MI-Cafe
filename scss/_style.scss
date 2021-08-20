@@ -6,7 +6,7 @@ body {
     margin: $margin0auto;
     .bg {
         @include backgroundimg(cover, no-repeat);
-        background-image: url(../images/img.png);
+        background-image: url(../images/bg_05.png);
         height: 800px;
         .navigation {
             width: $width;
@@ -962,7 +962,7 @@ body {
     @extend %mainsize;
     margin: $margin0auto;
     .bg3 {
-        background-image: url(../images/photo-1543191878-f6a3e470454e.jpeg);
+        background-image: url(../images/img.png);
         @include backgroundimg(cover, no-repeat);
         @extend %mainsize;
         padding-bottom: 150px;
@@ -1106,7 +1106,7 @@ body {
             max-width: 550px;
             width: $width;
             height: $auto;
-            background-color: rgb(39, 37, 34);
+            background-color: #171818;
             padding: 55px;
             display: flex;
             flex-direction: column;
@@ -1343,7 +1343,7 @@ body {
         font-size: 3rem;
         text-align: $center;
         text-transform: capitalize;
-        font-size: $font-family;
+        font-family: $font-family;
         font-weight: bold;
         margin-top: $margin-top100;
     }
@@ -1358,7 +1358,7 @@ body {
             .list {
                 display: flex;
                 flex-direction: column;
-                max-width: 250px;
+                max-width: 500px;
                 width: $width;
                 height: $auto;
                 padding: $padding20;
@@ -1368,11 +1368,15 @@ body {
                     margin-top: $margin-top20;
                     margin-bottom: $margin-bottom20;
                     font-family: $font-family;
+                    font-weight: bold;
+                    text-align: $center;
                 }
                 .userImg {
-                    width: 170px;
-                    height: 150px;
-                    border: 5px rgb(65, 61, 58) solid;
+                    max-width: 200px;
+                    width: $width;
+                    height: 200px;
+                    border: 3px rgb(65, 61, 58) solid;
+                    margin: $margin0auto;
                 }
                 .paragraph {
                     color: $white;
@@ -1391,6 +1395,15 @@ body {
                 color: $white;
                 font-size: 45px;
             }
+        }
+    }
+    .immg {
+        max-width: 1300px;
+        width: $width;
+        height: $auto;
+        margin: 70px $auto;
+        .image {
+            width: $width;
         }
     }
     .values {
@@ -2381,6 +2394,121 @@ body {
                 color: $black;
                 font-size: $rem15;
             }
+        }
+    }
+}
+.indetails {
+    @extend %mainsize;
+    @include flex(flex, space-around, top);
+    flex-wrap: wrap;
+    background-color: $white;
+    margin-top: $margin-top100;
+    padding: 60px;
+    .boox {
+        max-width: 480px;
+        width: $width;
+        height: $auto;
+        cursor: pointer;
+        .PRODUCT {
+            font-family: $font-family;
+            font-weight: bold;
+            font-size: $fontrem;
+        }
+        .box {
+            display: $none;
+            margin-top: 50px;
+            .parag {
+                font-family: $font-family;
+                font-size: $font16;
+                color: gray;
+            }
+            .see {
+                max-width: 100px;
+                width: $width;
+                height: 40px;
+                background-color: rgb(34, 34, 33);
+                border: $none;
+                border-radius: $radius10;
+                color: $white;
+                font-family: $font-family;
+                font-size: $font14;
+                margin-top: $margin-top20;
+                cursor: pointer;
+            }
+            .see {
+                &:hover {
+                    background-color: rgb(100, 98, 98);
+                }
+            }
+        }
+    }
+    .practive .box {
+        display: block;
+    }
+}
+.footer-line {
+    max-width: 1000px;
+    background-color: $white;
+    height: 1px;
+    margin: $margin0auto;
+}
+.copyright {
+    color: $white;
+    font-size: $font14;
+    font-family: $font-family;
+    margin-top: $margin-top20;
+    text-align: center;
+}
+.footer-block {
+    @include flex (flex, space-around, center);
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1300px;
+    width: $width;
+    height: $auto;
+    margin: 100px $auto 0;
+    padding: $padding20;
+    .footer-p {
+        max-width: 376px;
+        width: $width;
+        height: $auto;
+        color: $white;
+        font-family: $font-family;
+        font-size: $font16;
+        margin-top: $margin-top20;
+        margin-bottom: $margin-bottom20;
+    }
+    .footer-li {
+        margin-bottom: $margin-bottom20;
+        .footer-a {
+            font-size: $fontrem;
+            color: $white;
+            font-family: $font-family;
+            margin-bottom: $margin-bottom20;
+            .fab {
+                margin-right: $margin-right;
+            }
+        }
+    }
+    .getSpecial {
+        color: $white;
+        font-family: $font-family;
+        font-size: $font16;
+    }
+    .mail-block {
+        max-width: 376px;
+        width: 100%;
+        height: 56px;
+        margin-top: $margin-top20;
+        .email {
+            width: 100%;
+            height: 56px;
+            background-color: $grey;
+            border: $none;
+            opacity: 0.6;
+            padding-left: 25px;
+            font-family: $font-family;
+            outline: $none;
         }
     }
 }
