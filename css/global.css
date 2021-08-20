@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-.main, .main .aboutmi, .main2, .main3, .main3 .bg3, .main3 .two-blocks, .main4 .bg4, .main4 .testimonials-bg, .main4 .blocks, .main5, .main6, .main6 .shop-blocks, .main6 .aroma {
+.main, .main .aboutmi, .main2, .main3, .main3 .bg3, .main3 .two-blocks, .main4 .bg4, .main4 .testimonials-bg, .main4 .blocks, .main5, .main6, .main6 .shop-blocks, .main6 .aroma, .preview {
   max-width: 1600px;
   width: 100%;
   height: auto;
@@ -2635,6 +2635,147 @@ body {
   padding-left: 25px;
   font-family: "Roboto", sans-serif;
   outline: none;
+}
+
+.bg7 .navigation {
+  width: 100%;
+  border-bottom: white 1px solid;
+  background: rgba(30, 30, 31, 0.73);
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bg7 .navigation .nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bg7 .navigation .nav-ul .nav-li {
+  max-width: 178px;
+  height: 80px;
+  border-top: none;
+  padding: 30px;
+  cursor: pointer;
+  border-top: none;
+}
+
+.bg7 .navigation .nav-ul .nav-li .nav-a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.bg7 .navigation .nav-ul .nav-li .fab {
+  font-size: 16px;
+  color: white;
+  margin-left: 8px;
+}
+
+.bg7 .navigation .nav-ul .active-li {
+  border-bottom: 5px white solid;
+}
+
+.bg7 .navigation .nav-ul .nav-li:hover {
+  border-bottom: 5px white solid;
+}
+
+.bg7 .navigation .contactBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.bg7 .navigation .contactBlock .fa-search,
+.bg7 .navigation .contactBlock .fa-shopping-bag {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.bg7 .navigation .contactBlock .conactUs {
+  max-width: 163px;
+  width: 100%;
+  height: 50px;
+  background-color: #70706c;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 18px 30px;
+}
+
+.bg7 .navigation .contactBlock .conactUs .contact-a {
+  color: white;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.bg7 .navigation .contactBlock .conactUs:hover {
+  background-color: #5c5956;
+}
+
+@media (max-width: 1284px) {
+  .bg7 .navigation .contactBlock {
+    display: none;
+  }
+}
+
+.bg7 .navigation .burger-bar {
+  display: none;
+  color: white;
+  font-size: 36px;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+}
+
+@media (max-width: 940px) {
+  .bg7 .navigation .burger-bar {
+    display: block;
+  }
+}
+
+.preview .product_preview {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  padding: 30px;
+}
+
+.preview .product_preview .left-side {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  justify-content: space-between;
+}
+
+.preview .product_preview .left-side img {
+  margin: 1%;
+  height: 90px;
+}
+
+.preview .product_preview .left-side img:hover {
+  cursor: pointer;
+}
+
+.preview .right-side {
+  display: inline-block;
+  width: 60%;
+  height: 400px;
+  background-position: 50%;
+  background: no-repeat;
 }
 
 @media (max-width: 940px) {
