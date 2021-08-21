@@ -333,6 +333,12 @@ body {
   cursor: pointer;
 }
 
+.main .aboutmi .first-block .info .what {
+  background-color: #ff7644;
+  padding: 15px;
+  border-radius: 10px;
+}
+
 .main .aboutmi .first-block .info .what:hover {
   color: #523939;
 }
@@ -363,7 +369,7 @@ body {
   background-color: #2c2c2c;
   padding: 15px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 45px;
 }
 
 .main .aboutmi .third-block {
@@ -2837,6 +2843,45 @@ body {
   color: #252525;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.preview .bllock .wrapper {
+  background: white;
+  border-radius: .5rem;
+  box-shadow: 0 0 2rem #0003;
+  padding: 1rem;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.preview .bllock .wrapper button {
+  width: 3rem;
+  line-height: 3rem;
+  color: white;
+  font-size: 1.5rem;
+  background: #ff7644;
+  border-radius: .5rem;
+  border: none;
+}
+
+.preview .bllock button:disabled {
+  background: #3b3b3b;
+}
+
+.preview .bllock .wrapper input {
+  width: 10rem;
+  font-size: 1.4rem;
+  text-align: center;
+  border: .1rem solid #ccc;
+  border-radius: .5rem;
+  padding: .6rem;
+}
+
+.preview .bllock .wrapper input input::-webkit-outer-spin-button,
+.preview .bllock .wrapper input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 .preview .bllock .price {

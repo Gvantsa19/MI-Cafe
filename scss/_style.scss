@@ -237,6 +237,11 @@ body {
                 font-size: $fontrem;
                 cursor: pointer;
                 .what {
+                    background-color: #ff7644;
+                    padding: $padding15;
+                    border-radius: $radius10;
+                }
+                .what {
                     &:hover {
                         color: rgb(82, 57, 57);
                     }
@@ -266,7 +271,7 @@ body {
             background-color: rgb(44, 44, 44);
             padding: $padding15;
             border-radius: $radius10;
-            margin-top: $margin-top20;
+            margin-top: 45px;
         }
         .third-block {
             width: 100%;
@@ -2362,6 +2367,40 @@ body {
             color: rgb(37, 37, 37);
             margin-top: $margin-top20;
             margin-bottom: $margin-bottom20;
+        }
+        .wrapper {
+            background: $white;
+            border-radius: .5rem;
+            box-shadow: 0 0 2rem #0003;
+            padding: 1rem;
+            max-width: 300px;
+            width: $width;
+            height: $auto;
+            margin-bottom: $margin-bottom20;
+          }
+        .wrapper button {
+            width: 3rem;
+            line-height: 3rem;
+            color: $white;
+            font-size: 1.5rem;
+            background: #ff7644;
+            border-radius: .5rem;
+            border: $none;
+        }
+        button:disabled {
+            background: #3b3b3b;
+        }
+        .wrapper input {
+            width: 10rem;
+            font-size: 1.4rem;
+            text-align: center;
+            border: .1rem solid #ccc;
+            border-radius: .5rem;
+            padding: .6rem;
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+              -webkit-appearance: none;
+            }
         }
         .price {
             font-size: $rem15;
