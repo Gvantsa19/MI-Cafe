@@ -87,7 +87,7 @@ body {
                 color: $white;
                 font-size: 36px;
                 position: $absolute;
-                top: 5%;
+                top: 4%;
                 right: 10%;
             }
             @media (max-width: 940px) {
@@ -529,7 +529,7 @@ body {
                 color: $white;
                 font-size: 36px;
                 position: $absolute;
-                top: 5%;
+                top: 4%;
                 right: 10%;
             }
             @media (max-width: 940px) {
@@ -869,12 +869,11 @@ body {
                 .cofimg {
                     max-width: 250px;
                     width: $width;
-                    height: 200px;
+                    height: $auto;
                     border: 2px $white solid;
                     opacity: 0.5;
                     .image {
                         width: $width;
-                        height: 100%;
                     }
                 }
                 .cofimg {
@@ -1062,7 +1061,7 @@ body {
                 color: $white;
                 font-size: 36px;
                 position: $absolute;
-                top: 5%;
+                top: 4%;
                 right: 10%;
             }
             @media (max-width: 940px) {
@@ -1360,7 +1359,7 @@ body {
                 color: $white;
                 font-size: 36px;
                 position: $absolute;
-                top: 5%;
+                top: 4%;
                 right: 10%;
             }
             @media (max-width: 940px) {
@@ -1655,7 +1654,7 @@ body {
                 color: $white;
                 font-size: 36px;
                 position: $absolute;
-                top: 5%;
+                top: 4%;
                 right: 10%;
             }
             @media (max-width: 940px) {
@@ -1960,7 +1959,7 @@ body {
                 color: $white;
                 font-size: 36px;
                 position: $absolute;
-                top: 5%;
+                top: 4%;
                 right: 10%;
             }
             @media (max-width: 940px) {
@@ -2348,7 +2347,7 @@ body {
             color: $white;
             font-size: 36px;
             position: $absolute;
-            top: 5%;
+            top: 4%;
             right: 10%;
         }
         @media (max-width: 940px) {
