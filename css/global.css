@@ -894,7 +894,7 @@ body {
   max-width: 400px;
   width: 100%;
   height: auto;
-  background-color: #52524c;
+  background-color: #171818;
   padding: 30px;
   margin-bottom: 20px;
 }
@@ -2772,7 +2772,8 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: #e7e7e5;
+  margin-top: 70px;
 }
 
 .preview .product_preview {
@@ -2782,7 +2783,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: white;
+  background-color: #e7e7e5;
   padding: 30px;
 }
 
@@ -2927,13 +2928,13 @@ body {
   justify-content: space-around;
   align-items: top;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: #e7e7e5;
   margin-top: 100px;
   padding: 60px;
 }
 
 .indetails .boox {
-  max-width: 480px;
+  max-width: 400px;
   width: 100%;
   height: auto;
   cursor: pointer;

@@ -713,7 +713,7 @@ body {
                 max-width: 400px;
                 width: $width;
                 height: $auto;
-                background-color: rgb(82, 82, 76);
+                background-color: #171818;
                 padding: $padding20;
                 margin-bottom: $margin-bottom20;
                 .heartAndLinks {
@@ -2308,7 +2308,8 @@ body {
     @extend %mainsize;
     @include flex(flex, space-around, center);
     flex-wrap: wrap;
-    background-color: $white;
+    background-color: #e7e7e5;
+    margin-top: $margin-top70;
     .product_preview {
         max-width: 750px;
         width: $width;
@@ -2316,7 +2317,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        background-color: $white;
+        background-color: #e7e7e5;
         padding: $padding20;
         .left-side {
             background-color: $white;
@@ -2441,11 +2442,11 @@ body {
     @extend %mainsize;
     @include flex(flex, space-around, top);
     flex-wrap: wrap;
-    background-color: $white;
+    background-color: #e7e7e5;
     margin-top: $margin-top100;
     padding: 60px;
     .boox {
-        max-width: 480px;
+        max-width: 400px;
         width: $width;
         height: $auto;
         cursor: pointer;
