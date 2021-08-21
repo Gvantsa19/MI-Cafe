@@ -218,6 +218,16 @@ body {
   background-color: black;
 }
 
+.main .bg .fa-angle-double-up {
+  font-size: 4rem;
+  color: white;
+  position: fixed;
+  right: 2%;
+  bottom: 12%;
+  background-color: #ff7644;
+  padding: 15px;
+}
+
 .main .hiThere {
   max-width: 1600px;
   width: 100%;
@@ -754,6 +764,16 @@ body {
 .main2 .bg2 .header-text-block .coffeeBtns .learnMore:hover {
   background-color: white;
   color: #70706c;
+}
+
+.main2 .bg2 .fa-angle-double-up {
+  font-size: 4rem;
+  color: white;
+  position: fixed;
+  right: 2%;
+  bottom: 12%;
+  background-color: #ff7644;
+  padding: 15px;
 }
 
 .main2 .bg2 .Finest-Beans {
@@ -1299,6 +1319,16 @@ body {
   }
 }
 
+.main3 .bg3 .fa-angle-double-up {
+  font-size: 4rem;
+  color: white;
+  position: fixed;
+  right: 2%;
+  bottom: 12%;
+  background-color: #ff7644;
+  padding: 15px;
+}
+
 .main3 .bg3 .OurLocations {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -1633,6 +1663,16 @@ body {
   .main4 .bg4 .navigation .burger-bar {
     display: block;
   }
+}
+
+.main4 .bg4 .fa-angle-double-up {
+  font-size: 4rem;
+  color: white;
+  position: fixed;
+  right: 2%;
+  bottom: 12%;
+  background-color: #ff7644;
+  padding: 15px;
 }
 
 .main4 .meet {
@@ -1972,6 +2012,16 @@ body {
   .main5 .bg5 .navigation .burger-bar {
     display: block;
   }
+}
+
+.main5 .bg5 .fa-angle-double-up {
+  font-size: 4rem;
+  color: white;
+  position: fixed;
+  right: 2%;
+  bottom: 12%;
+  background-color: #ff7644;
+  padding: 15px;
 }
 
 .main5 .bg5 .CONTACTUS {
@@ -2316,6 +2366,16 @@ body {
   .main6 .bg6 .navigation .burger-bar {
     display: block;
   }
+}
+
+.main6 .bg6 .fa-angle-double-up {
+  font-size: 4rem;
+  color: white;
+  position: fixed;
+  right: 2%;
+  bottom: 12%;
+  background-color: #ff7644;
+  padding: 15px;
 }
 
 .main6 .shop-blocks {
